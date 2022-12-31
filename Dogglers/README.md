@@ -21,7 +21,7 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2022 [Tanja Korolainen](https://github.com/TanjaKor).
 
-This project is [Apache 2.0](https://github.com/TanjaKor/android-basics-harkat/blob/main/LICENSE)  licensed.
+This project is [Apache 2.0](https://github.com/TanjaKor/android-basics-harkat/blob/main/Dogglers/LICENSE)  licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
