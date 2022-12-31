@@ -1,0 +1,977 @@
+07-04 15:28:54.273 18070 18096 I TestRunner: started: recycler_view_item_count(com.example.dogglers.GridListTests)
+07-04 15:28:54.274  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:54.274  1184  1204 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:54.275 14051 14051 D NotificationListener: onNotificationRankingUpdate# hash: 62245108 rankingMap: android.service.notification.NotificationListenerService$RankingMap@3ab0d0
+07-04 15:28:54.277   918  4570 D AudioPolicyService: updateUidStates_l() current->uid=10146 current->pid=4431 allowCapture=1 UidState=3 apmStat=1
+07-04 15:28:54.277  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.278  2144  2144 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.wsandroid.suite|64709376|null|10266
+07-04 15:28:54.279  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.279  2144  2144 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.wsandroid.suite|64709376|null|10266
+07-04 15:28:54.279  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.279  2144  2144 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.wsandroid.suite|64709376|null|10266
+07-04 15:28:54.280  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.280  2144  2144 I chatty  : uid=10120(com.android.systemui) identical 9 lines
+07-04 15:28:54.280  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.281 14051 14051 E Parcel  : Reading a NULL string not supported here.
+07-04 15:28:54.282  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.284  2144  2144 I chatty  : uid=10120(com.android.systemui) identical 23 lines
+07-04 15:28:54.284  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.284   885   992 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:0.688574,dur:7261.39,max:7009.33,min:4.34
+07-04 15:28:54.284  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.284  2144  2144 I chatty  : uid=10120(com.android.systemui) identical 2 lines
+07-04 15:28:54.284  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.284 14051 14051 E Parcel  : Reading a NULL string not supported here.
+07-04 15:28:54.284 18070 18096 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: Failed to inflate resource in the background! Retrying on the UI thread
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: android.view.InflateException: Binary XML file line #19 in com.android.systemui:layout/status_bar_notification_row: Binary XML file line #18 in com.android.systemui:layout/notification_guts: Binary XML file line #18 in com.android.systemui:layout/notification_guts: Error inflating class <unknown>
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: Caused by: android.view.InflateException: Binary XML file line #18 in com.android.systemui:layout/notification_guts: Binary XML file line #18 in com.android.systemui:layout/notification_guts: Error inflating class <unknown>
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: Caused by: android.view.InflateException: Binary XML file line #18 in com.android.systemui:layout/notification_guts: Error inflating class <unknown>
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: Caused by: java.lang.reflect.InvocationTargetException
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1008)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:657)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.ViewStub.inflateViewNoAdd(ViewStub.java:272)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.ViewStub.inflate(ViewStub.java:305)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at com.android.systemui.statusbar.notification.row.ExpandableNotificationRow.ensureGutsInflated(ExpandableNotificationRow.java:2366)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at com.android.systemui.statusbar.notification.row.ExpandableNotificationRow.onFinishInflate(ExpandableNotificationRow.java:2134)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1151)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1099)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at androidx.asynclayoutinflater.view.AsyncLayoutInflater$InflateThread.runInner(AsyncLayoutInflater.java:188)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at androidx.asynclayoutinflater.view.AsyncLayoutInflater$InflateThread.run(AsyncLayoutInflater.java:202)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: Caused by: java.lang.RuntimeException: Can't create handler inside thread Thread[Thread-2,5,main] that has not called Looper.prepare()
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.os.Handler.<init>(Handler.java:227)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at android.os.Handler.<init>(Handler.java:129)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	at com.android.systemui.statusbar.notification.row.NotificationGuts.<init>(NotificationGuts.java:171)
+07-04 15:28:54.289  2144  6379 W AsyncLayoutInflater: 	... 17 more
+07-04 15:28:54.293  2144  2144 D StackScroller: setting break mode view visibility: isKeyGaurdVisible:false isWLBON:false
+07-04 15:28:54.296  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269960, tid:1945
+07-04 15:28:54.296  4393 13547 W MediaProvider: Didn't find any volume for getVolume(/system/system_ext/media/audio/notifications/Bubble.ogg)
+07-04 15:28:54.296  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269960, dur:0, num:16, tid:1945
+07-04 15:28:54.297   904   971 I libPowerHal: [perfLockRel] hdl:269960, idx:0
+07-04 15:28:54.297   904   971 I libPowerHal: [PD] scn:0 hdl:269960 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.297  4393 13547 I MediaProvider: Open with lower FS for /system/system_ext/media/audio/notifications/Bubble.ogg. Uid: 10120
+07-04 15:28:54.297   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 2004100=>0,
+07-04 15:28:54.297  1548  1945 I mtkpower_client: ret_hdl:269961
+07-04 15:28:54.297   904   971 E libPowerHal: input parameter exceed reasonable range 2020000 -1 15 0
+07-04 15:28:54.297   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269961 hint:-1 pid:1548 duration:0 => ret_hdl:269961
+07-04 15:28:54.297   904   971 I libPowerHal: [PE] scn:0 hdl:269961 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.298   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.299   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>0, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.299  1130  1130 D NuPlayer: NuPlayer() ro.oplus.audio.effect.type = dirac
+07-04 15:28:54.299  1130  1130 D OplusNuPlayer: initializeOplusMedia [125]:
+07-04 15:28:54.299  1130  1130 D NuPlayerDriver: NuPlayerDriver(0xef8d0640) created, clientPid(2144)
+07-04 15:28:54.299  2144  2144 E OpReflectionUtils: getValue NoSuchField class com.android.systemui.statusbar.notification.stack.NotificationStackScrollLayout field mShelf
+07-04 15:28:54.299  2144  2144 I chatty  : uid=10120(com.android.systemui) identical 1 line
+07-04 15:28:54.299  2144  2144 E OpReflectionUtils: getValue NoSuchField class com.android.systemui.statusbar.notification.stack.NotificationStackScrollLayout field mShelf
+07-04 15:28:54.301   938  1532 D DispPerfService: get hint proc=, idx=1 none
+07-04 15:28:54.303   938  1532 D DispPerfService: get hint proc=ActivityRecord{458a2ec u0 com.example.dogglers, idx=1 none
+07-04 15:28:54.304  1130  1130 D GenericSource: GenericSource() ro.oplus.audio.effect.type = dirac
+07-04 15:28:54.304   904   925 I mtkpower@impl: [setMode] type:5, enabled:1
+07-04 15:28:54.307 14051 14051 D Launcher: onPause# hashcode: 36593752
+07-04 15:28:54.307 14051 14051 D BottomSwipeTouchRegionController: update: activity = net.oneplus.launcher.Launcher@22e6058, active = false, finalValue = true, reallyUpdate = true
+07-04 15:28:54.308 14051 14051 I ShelfLauncherCallbacks: onPause
+07-04 15:28:54.309  1548  2719 V SensorManager: setScreenShotDisableImpl
+07-04 15:28:54.309  1548  2719 D SensorService: debug_oplusGeminiProximity setScreenShotDisable in SensorService
+07-04 15:28:54.309  1548  2719 I OplusHansManager : front pkg: com.example.dogglers, uid: 10305, prev pkg: net.oneplus.launcher, prev uid: 10119
+07-04 15:28:54.309  1548  3692 I OplusHansManager : notifyAppGoForeground, uid=10305
+07-04 15:28:54.309  2144  3084 D EventInterceptManager: start updateInvalidRegion, regionKey: gesture, region_size: 3, disposable: false, isDelete: false, bundle == null: true
+07-04 15:28:54.309  1548  3692 I OplusHansManager : notifyAppGoBackground, uid=10119
+07-04 15:28:54.309  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269961, tid:1945
+07-04 15:28:54.310  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269961, dur:0, num:16, tid:1945
+07-04 15:28:54.310   904   971 I libPowerHal: [perfLockRel] hdl:269961, idx:0
+07-04 15:28:54.310   904   971 I libPowerHal: [PD] scn:0 hdl:269961 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.310  1548  4491 W OplusInputDispatcher: invalidRegions map setted, key: gesture
+07-04 15:28:54.310  1548  2589 I OplusHansManager : uid=10305, pkg=com.example.dogglers R exit SM
+07-04 15:28:54.310  1548  2589 I OplusHansManager : uid=10305, pkg=com.example.dogglers R exit()
+07-04 15:28:54.310  1093 20545 D DrmManagerService(Native): Entering DrmManagerService::openDecryptSession 1
+07-04 15:28:54.310  1093 20545 D drmserver: readBytes[8] FileHeader[OggS]
+07-04 15:28:54.310   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1 -1 -1
+07-04 15:28:54.311 14051 14125 I WeatherProvider: un-subscribe the weather callback:
+07-04 15:28:54.311   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 1410000=>0, 1c3c000=>1, 2004100=>0,
+07-04 15:28:54.312  1548  1945 I mtkpower_client: ret_hdl:269962
+07-04 15:28:54.312   904   971 E libPowerHal: input parameter exceed reasonable range 2020000 -1 15 0
+07-04 15:28:54.312   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269962 hint:-1 pid:1548 duration:0 => ret_hdl:269962
+07-04 15:28:54.313  1548  2719 I InputDispatcher: setFocusedApplication displayId=0 <invalid>
+07-04 15:28:54.313  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269962, tid:1945
+07-04 15:28:54.313  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269962, dur:0, num:16, tid:1945
+07-04 15:28:54.314  1548  2719 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+07-04 15:28:54.312   904   971 I libPowerHal: [PE] scn:0 hdl:269962 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.316   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.317   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>0, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.317   904   971 I libPowerHal: [perfNotifyAppState] foreground:com.example.dogglers, pid:18070, uid:10305
+07-04 15:28:54.320   938  1532 I SurfaceFlinger: [SF client] NEW(0xb400007374338cc0) for (1548:system_server)
+07-04 15:28:54.321  1548  1574 D ViewRootImpl[dogglers]: hardware acceleration = false , fakeHwAccelerated = true, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+07-04 15:28:54.321   904   971 I UxUtility: notifyForegroundApp pack:com.example.dogglers, uid:10305
+07-04 15:28:54.321   904   971 I TouchUtility: notifyAppState error = NULL
+07-04 15:28:54.321   904   971 I libPowerHal: [perfNotifyAppState] [activity updated] pack:com.example.dogglers, act:androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+07-04 15:28:54.321   904   971 I libPowerHal: Act_Match:0, Common_index:-1
+07-04 15:28:54.322   904   924 I mtkpower@impl: [notifyAppState] pc:0, net.oneplus.launcher => com.example.dogglers
+07-04 15:28:54.322   904   924 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:269962, wait
+07-04 15:28:54.322   938  1008 D DispPerfService: get hint proc=, idx=1 none
+07-04 15:28:54.322   904   971 I libPowerHal: [perfLockRel] hdl:269962, idx:0
+07-04 15:28:54.322   904   971 I libPowerHal: [PD] scn:0 hdl:269962 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.322   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1 -1 -1
+07-04 15:28:54.322   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 1410000=>0, 1c3c000=>1, 2004100=>0,
+07-04 15:28:54.323  1548  1574 I InputTransport: Create ARC handle: 0xb400007cc237a720
+07-04 15:28:54.324  1548  1945 I mtkpower_client: ret_hdl:269963
+07-04 15:28:54.324   918  4570 D AudioPolicyService: updateUidStates_l() current->uid=10146 current->pid=4431 allowCapture=1 UidState=3 apmStat=1
+07-04 15:28:54.325   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269963 hint:-1 pid:1548 duration:0 => ret_hdl:269963
+07-04 15:28:54.325   904   971 I libPowerHal: [PE] scn:0 hdl:269963 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.325   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.325  1130 18104 D GenericSource: FileSource remote
+07-04 15:28:54.326  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269963, tid:1945
+07-04 15:28:54.326  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269963, dur:0, num:16, tid:1945
+07-04 15:28:54.326   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>15, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.329   904   924 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:269963, wait
+07-04 15:28:54.329   904   971 I libPowerHal: [perfLockRel] hdl:269963, idx:0
+07-04 15:28:54.329   904   971 I libPowerHal: [PD] scn:0 hdl:269963 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.329   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1 -1 -1
+07-04 15:28:54.329   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 1410000=>0, 1c3c000=>1, 2004100=>0,
+07-04 15:28:54.331  1548  1945 I mtkpower_client: ret_hdl:269964
+07-04 15:28:54.332   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269964 hint:-1 pid:1548 duration:0 => ret_hdl:269964
+07-04 15:28:54.332   904   971 I libPowerHal: [PE] scn:0 hdl:269964 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.334   938  1532 D DispPerfService: get hint proc=, idx=1 none
+07-04 15:28:54.334   938  1532 I BufferQueueConsumer: [](id:3aa00003b0c,api:0,p:-1,c:938) connect(): controlledByApp=false
+07-04 15:28:54.334   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.334   938  1532 I BufferQueue: [unnamed-938-15116](this:0xb40000737423dc58,id:15116,api:0,p:-1,c:-1) BufferQueue core=(938:/system/bin/surfaceflinger)
+07-04 15:28:54.334   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>15, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.334  1548  2774 I OplusResourcePreloadManager: resume pkg: com.example.dogglers, uid:10305, prev pkg: net.oneplus.launcher, prev uid: 10119
+07-04 15:28:54.335  1548  2774 E Process : get_ion_cache_memory: Unable to open /d/ion/system_stats
+07-04 15:28:54.336 18070 18070 I oplus.android.OplusFrameworkFactoryImpl: getOplusRedPacketManager
+07-04 15:28:54.336 11621 32104 D ZoomAppController: ignore onAppEnter: mCurrentZoomInfo is null
+07-04 15:28:54.337  1116 22882 I FFmpegExtractor: [getAtlasConfByName:L2673] atlas conf:/system/bin/mediaserver confidence:1.0,  result confidence:1.000000
+07-04 15:28:54.337 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab in: PRE_ON_CREATE
+07-04 15:28:54.338  3186 13313 W Battery : ThermalControlUtils: mForegroundPkg=com.example.dogglers
+07-04 15:28:54.338 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab
+07-04 15:28:54.338  1116 22882 D FFmpegExtractor: SniffFFMPEG failed to sniff this source
+07-04 15:28:54.339  1116 22882 D OplusMPEG4Extractor: [BetterSniffMPEG4:L7353] 0 A:0 V:0
+07-04 15:28:54.340  1548  1574 D Surface : lockCanvas
+07-04 15:28:54.341  1548  4490 I InputDispatcher: Focus left window: Window{30be694 u0 net.oneplus.launcher/net.oneplus.launcher.Launcher} in display 0
+07-04 15:28:54.341  1548  4490 I InputDispatcher: Window went away: Window{7b62e43 u0 net.oneplus.launcher/net.oneplus.launcher.Launcher}
+07-04 15:28:54.341  1548  4490 I InputDispatcher: Window went away: Window{30be694 u0 net.oneplus.launcher/net.oneplus.launcher.Launcher}
+07-04 15:28:54.341   938  1532 I BufferQueueProducer: [Splash Screen com.example.dogglers#0](id:3aa00003b0c,api:2,p:1548,c:938) connect(): api=2 producerControlledByApp=false
+07-04 15:28:54.341 14051 14051 D Launcher: onWindowFocusChanged# hasFocus: false
+07-04 15:28:54.342  3186 13313 W Battery : ThermalControllHandler: tempLevel=2,userMode=2,gameUserMode=-1,appType=-1,envTempType=0,appStates=[]
+07-04 15:28:54.341 13255 13276 W OplusExSystemServiceHelper: checkOplusExSystemService intent getComponent is null
+07-04 15:28:54.343  3186 13313 W Battery : ThermalControllerCenter: mSafetyState=10000
+07-04 15:28:54.343 13255 13255 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+07-04 15:28:54.343 13255 13255 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+07-04 15:28:54.345 18070 18112 D libMEOW : meow reload base cfg path: na
+07-04 15:28:54.345 18070 18112 D libMEOW : meow reload overlay cfg path: na
+07-04 15:28:54.346  1130 18104 I GenericSource: initFromDataSource: use OggExtractor, numtracks = 1
+07-04 15:28:54.346  3186 13313 W Battery : ThermalControllHandler: tempGear=2,configItemName=common_config
+07-04 15:28:54.346  3186  5688 W Battery : ThermalControllHandler: MSG_THERMAL_CONTROL_CATEGORY_CHANGED
+07-04 15:28:54.353 18070 18112 D libMEOW : applied 0 plugin for [com.example.dogglers].
+07-04 15:28:54.354   938  1532 D DispPerfService: onframeavailable pid=1548, slot=0, seq=63884, name=system_server:Splash Screen com.example.dogglers#0
+07-04 15:28:54.357 13255 13291 E Parcel  : Reading a NULL string not supported here.
+07-04 15:28:54.359  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.361  2144  2144 I chatty  : uid=10120(com.android.systemui) identical 40 lines
+07-04 15:28:54.361  2144  2144 D Notification: WLB feature not supported, block notification:false
+07-04 15:28:54.362  2296  2296 D LiveWallpaper.Engine: onVisibilityChanged# true -> false
+07-04 15:28:54.362  3743  3782 E oiface  : packageSwitch pkg com.example.dogglers, enter
+07-04 15:28:54.362  3743  3782 E oiface  : current package is com.example.dogglers and pid is 18070
+07-04 15:28:54.362 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab in: CREATED
+07-04 15:28:54.363 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab
+07-04 15:28:54.363  1548  2723 I InputDispatcher: Window went away: Splash Screen com.example.dogglers#0
+07-04 15:28:54.363   938  1532 I BufferQueueProducer: [net.oneplus.launcher/net.oneplus.launcher.Launcher#0](id:3aa00003b0a,api:1,p:10148,c:938) disconnect(): api=1
+07-04 15:28:54.364   938  1008 D DispPerfService: get hint proc=Surface(name=44bf6fc StatusBar), idx=1 none
+07-04 15:28:54.366   938  1008 D DispPerfService: get hint proc=Surface(name=1a0f092 NavigationBar0), idx=1 none
+07-04 15:28:54.367 14051 14051 E Parcel  : Reading a NULL string not supported here.
+07-04 15:28:54.372 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab in: STARTED
+07-04 15:28:54.373 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab
+07-04 15:28:54.374  1548  4491 I MediaFocusControl: requestAudioFocus() from uid/pid 10120/2144 clientId=android.media.AudioManager@b4239e0 callingPack=com.android.systemui req=3 flags=0x0 sdk=30
+07-04 15:28:54.374 14051 14051 D RecyclerViewWrapper: onWindowVisibilityChanged:8
+07-04 15:28:54.383  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269964, tid:1945
+07-04 15:28:54.383  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269964, dur:0, num:16, tid:1945
+07-04 15:28:54.383   904   971 I libPowerHal: [perfLockRel] hdl:269964, idx:0
+07-04 15:28:54.383   904   971 I libPowerHal: [PD] scn:0 hdl:269964 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.383   938  1009 D DispPerfService: get hint proc=ActivityRecord{dbcf0f8 u0 com.example.dogglers, idx=1 none
+07-04 15:28:54.383   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1 -1 -1
+07-04 15:28:54.384   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 1410000=>0, 1c3c000=>1, 2004100=>0,
+07-04 15:28:54.384  1548  1945 I mtkpower_client: ret_hdl:269965
+07-04 15:28:54.387 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab in: RESUMED
+07-04 15:28:54.387   938  1009 I BufferQueueProducer: [net.oneplus.launcher/net.oneplus.launcher.Launcher#1](id:3aa00003b0b,api:1,p:14051,c:938) disconnect(): api=1
+07-04 15:28:54.387 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab
+07-04 15:28:54.388   904   925 I mtkpower@impl: [setMode] type:5, enabled:1
+07-04 15:28:54.389   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269965 hint:-1 pid:1548 duration:0 => ret_hdl:269965
+07-04 15:28:54.389   904   971 I libPowerHal: [PE] scn:0 hdl:269965 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.389   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.389   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>15, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.392  2144  2144 D StackScroller: setting break mode view visibility: isKeyGaurdVisible:false isWLBON:false
+07-04 15:28:54.394  3743  3750 E oiface  : Average freq 571065 for 86s.
+07-04 15:28:54.394  3743  3750 E oiface  : Average freq 819225 for 86s.
+07-04 15:28:54.394  3743  3750 E oiface  : Average freq 782000 for 86s.
+07-04 15:28:54.394  3743  3750 E oiface  : get gpu freq table failed
+07-04 15:28:54.395  3743  3750 E oiface  : client  not found, skipped
+07-04 15:28:54.395  3743  3750 D oiface  : forground package is com.example.dogglers
+07-04 15:28:54.397 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab in: PAUSED
+07-04 15:28:54.397 22357 22357 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@24657c1, this = DecorView@6f65b66[InputMethod]
+07-04 15:28:54.398 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab
+07-04 15:28:54.398 13255 13276 W OplusExSystemServiceHelper: checkOplusExSystemService intent getComponent is null
+07-04 15:28:54.398 22357 22357 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@24657c1, this = DecorView@6f65b66[InputMethod]
+07-04 15:28:54.400  1548  1574 D Surface : lockCanvas
+07-04 15:28:54.401  1548  2340 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{dbcf0f8 u0 com.example.dogglers/.GridListActivity t4594}
+07-04 15:28:54.402   904   971 I libPowerHal: [perfNotifyAppState] [activity updated] pack:com.example.dogglers, act:com.example.dogglers.GridListActivity
+07-04 15:28:54.402   904   971 I libPowerHal: Act_Match:0, Common_index:-1
+07-04 15:28:54.402   904   924 I mtkpower@impl: [notifyAppState] act androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity => com.example.dogglers.GridListActivity
+07-04 15:28:54.406   938   938 D OplusExLayer: ~Layer() sequence=63875, name=Surface(name=1a0f092 NavigationBar0)/@0x96afa60 - animation-leash#0
+07-04 15:28:54.406   938   938 D OplusExLayer: ~Layer() sequence=63874, name=Surface(name=44bf6fc StatusBar)/@0x6e28e63 - animation-leash#0
+07-04 15:28:54.407 18070 18116 D libMEOW : applied 0 plugin for [com.example.dogglers].
+07-04 15:28:54.408  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269965, tid:1945
+07-04 15:28:54.408  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269965, dur:0, num:16, tid:1945
+07-04 15:28:54.408   904   924 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:269965, wait
+07-04 15:28:54.409 14051 14051 D Launcher: onStop# hashcode: 36593752
+07-04 15:28:54.410   904   971 I libPowerHal: [perfLockRel] hdl:269965, idx:0
+07-04 15:28:54.410   904   971 I libPowerHal: [PD] scn:0 hdl:269965 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.410   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1 -1 -1
+07-04 15:28:54.410   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 1410000=>0, 1c3c000=>1, 2004100=>0,
+07-04 15:28:54.411  1548  1945 I mtkpower_client: ret_hdl:269966
+07-04 15:28:54.411   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269966 hint:-1 pid:1548 duration:0 => ret_hdl:269966
+07-04 15:28:54.411   904   971 I libPowerHal: [PE] scn:0 hdl:269966 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.411   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.411   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>15, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.415  4431  4431 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+07-04 15:28:54.417 14051 14051 I ShelfLauncherCallbacks: onStop
+07-04 15:28:54.417 14051 14051 D LauncherAppWidgetHost: setListenIfResumed# listenIfResumed: false, flag: 7
+07-04 15:28:54.417 14051 14051 D LauncherAppWidgetHost: stopListening# flag: 2
+07-04 15:28:54.417 14051 14051 D BaseActivity: isForceInvisible = false
+07-04 15:28:54.417 14051 14051 D StateManager: gotoState# fromState=NORMAL, toState=NORMAL, animated = false
+07-04 15:28:54.417 14051 14051 D Launcher: onTrimMemory# level: 20
+07-04 15:28:54.417 14051 14051 D Launcher: onSaveInstanceState# hashcode: 36593752
+07-04 15:28:54.418   918  4570 D AudioPolicyService: updateUidStates_l() current->uid=10146 current->pid=4431 allowCapture=1 UidState=5 apmStat=1
+07-04 15:28:54.419   918  4570 D AudioPolicyService: updateUidStates_l() current->uid=10146 current->pid=4431 allowCapture=1 UidState=5 apmStat=1
+07-04 15:28:54.419 14051 14051 I ShelfLauncherCallbacks: onSaveInstanceState
+07-04 15:28:54.419   918  4570 D AudioPolicyService: updateUidStates_l() current->uid=10146 current->pid=4431 allowCapture=1 UidState=5 apmStat=1
+07-04 15:28:54.419 14051 14051 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@b0c4ca4, this = DecorView@9a69c12[Launcher]
+07-04 15:28:54.423 14051 14051 D Launcher: onTrimCachedBitmaps# state: NORMAL, trim: true
+07-04 15:28:54.423 14051 14051 I WallpaperImageCache: WallpaperImageCache cleared.
+07-04 15:28:54.423 14051 14051 D RecentsView: autoRemoveLauncherTask#
+07-04 15:28:54.423 14051 14051 D RecentTasksList: getTasks: The list is up to date, callback with the same list.
+07-04 15:28:54.430  2144  2144 D StatusBar/NavBarView: updateNavButtonIcons: disableBack/Home/Recent: false/false/false, mNavBarMode=0, disableFlags=0, useAltBack=false, rotation=0,com.oplusos.systemui.navbar.view.OplusNavigationBarView.updateNavButtonIcons:149 com.oplusos.systemui.navbar.view.OplusNavigationBarView.updateUseInputMethod:141 com.oplusos.systemui.navbar.view.NavBarViewProxy.updateVisibility:64 com.oplusos.systemui.navbar.view.NavBarViewPresenterImpl.updateVisibility:83 com.oplusos.systemui.navbar.view.NavBarViewModelImpl.updateVisibility:87 com.oplusos.systemui.navbar.NavBarProxyManager.updateVisibility:132 com.oplusos.systemui.navbar.view.OplusNavigationBarFragment.updateVisibility:193
+07-04 15:28:54.432  2144  2144 E OpReflectionUtils: getValue NoSuchField class com.android.systemui.statusbar.notification.stack.NotificationStackScrollLayout field mShelf
+07-04 15:28:54.434  2144  2144 I chatty  : uid=10120(com.android.systemui) identical 7 lines
+07-04 15:28:54.434  2144  2144 E OpReflectionUtils: getValue NoSuchField class com.android.systemui.statusbar.notification.stack.NotificationStackScrollLayout field mShelf
+07-04 15:28:54.440   938   938 I BufferQueueConsumer: [net.oneplus.launcher/net.oneplus.launcher.Launcher#1](id:3aa00003b0b,api:0,p:-1,c:938) disconnect()
+07-04 15:28:54.440   938   938 I BufferQueue: [net.oneplus.launcher/net.oneplus.launcher.Launcher#1](this:0xb4000073873d1058,id:15115,api:1,p:-1,c:-1) onDestructor()
+07-04 15:28:54.440   938   938 D OplusExLayer: ~Layer() sequence=63873, name=net.oneplus.launcher/net.oneplus.launcher.Launcher#1
+07-04 15:28:54.440   938   938 I BufferQueueConsumer: [net.oneplus.launcher/net.oneplus.launcher.Launcher#0](id:3aa00003b0a,api:0,p:-1,c:938) disconnect()
+07-04 15:28:54.440   938   938 I BufferQueue: [net.oneplus.launcher/net.oneplus.launcher.Launcher#0](this:0xb4000073873cbc58,id:15114,api:1,p:-1,c:-1) onDestructor()
+07-04 15:28:54.440   938   938 D OplusExLayer: ~Layer() sequence=63872, name=net.oneplus.launcher/net.oneplus.launcher.Launcher#0
+07-04 15:28:54.441  3743  3750 E oiface  : get gpu freq table failed
+07-04 15:28:54.441  1548  3263 I InputDispatcher: Window went away: net.oneplus.launcher/net.oneplus.launcher.Launcher#0
+07-04 15:28:54.441  1548  3263 I InputDispatcher: Window went away: net.oneplus.launcher/net.oneplus.launcher.Launcher#1
+07-04 15:28:54.446 18070 18070 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@fd7059b in: PRE_ON_CREATE
+07-04 15:28:54.447 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+07-04 15:28:54.451  1186  1320 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[1677.000000,,160.000000,,37.000000,0.000000,447430433070376]
+07-04 15:28:54.451  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:54.452  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:54.518 18070 18070 W xample.doggler: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+07-04 15:28:54.519 18070 18070 W xample.doggler: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+07-04 15:28:54.535 18070 18070 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@fd7059b in: CREATED
+07-04 15:28:54.535 18070 18070 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.GridListActivity@fd7059b
+07-04 15:28:54.537 18070 18070 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@fd7059b in: STARTED
+07-04 15:28:54.538 18070 18070 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.GridListActivity@fd7059b
+07-04 15:28:54.539 18070 18070 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@fd7059b in: RESUMED
+07-04 15:28:54.540 18070 18070 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.GridListActivity@fd7059b
+07-04 15:28:54.543 18070 18070 I SurfaceFactory: [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@4a1fbf1
+07-04 15:28:54.543   938  1008 I SurfaceFlinger: [SF client] NEW(0xb400007387055480) for (18070:com.example.dogglers)
+07-04 15:28:54.546 18070 18070 I OplusSlideAnimOptHelper: checkListMode: is blacklist mode = true
+07-04 15:28:54.553 18070 18096 D EventInjectionStrategy: Creating injection strategy with input manager.
+07-04 15:28:54.553 18070 18096 W xample.doggler: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+07-04 15:28:54.553 18070 18096 W xample.doggler: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+07-04 15:28:54.553 18070 18096 W xample.doggler: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+07-04 15:28:54.556 18070 18070 I OplusFeatureCache: Milliseconds spent on init(): 10
+07-04 15:28:54.557 18070 18070 D OplusSlideAnimOptHelper: com.example.dogglers scrollEffectOpt enable = false
+07-04 15:28:54.563 18070 18070 D ViewRootImpl[GridListActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+07-04 15:28:54.564   938  1008 I SurfaceFlinger: [SF client] NEW(0xb4000073a6077100) for (1548:system_server)
+07-04 15:28:54.565   938  1009 D DispPerfService: get hint proc=7d89ce8 com.example.dogglers, idx=1 none
+07-04 15:28:54.567 18070 18070 D libMEOW : applied 0 plugin for [com.example.dogglers].
+07-04 15:28:54.567 18070 18070 I InputTransport: Create ARC handle: 0xb400007e8b137a60
+07-04 15:28:54.568 18070 18070 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@66810f3, this = DecorView@e6b71b0[GridListActivity]
+07-04 15:28:54.571 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab in: STOPPED
+07-04 15:28:54.572 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab
+07-04 15:28:54.583   938  1008 D DispPerfService: get hint proc=com.example.dogglers, idx=1 none
+07-04 15:28:54.583   938  1008 I BufferQueueConsumer: [](id:3aa00003b0d,api:0,p:-1,c:938) connect(): controlledByApp=false
+07-04 15:28:54.583   938  1008 I BufferQueue: [unnamed-938-15117](this:0xb4000073a6093658,id:15117,api:0,p:-1,c:-1) BufferQueue core=(938:/system/bin/surfaceflinger)
+07-04 15:28:54.584   938  1008 D DispPerfService: get hint proc=Surface(name=44bf6fc StatusBar), idx=1 none
+07-04 15:28:54.585   938  1008 D DispPerfService: get hint proc=Surface(name=1a0f092 NavigationBar0), idx=1 none
+07-04 15:28:54.585  1548  3263 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+07-04 15:28:54.590 18070 18107 D libMEOW : applied 0 plugin for [com.example.dogglers].
+07-04 15:28:54.594  2144  2144 D StatusBar/NavBarView: updateNavButtonIcons: disableBack/Home/Recent: false/false/false, mNavBarMode=0, disableFlags=0, useAltBack=false, rotation=0,com.oplusos.systemui.navbar.view.OplusNavigationBarView.updateNavButtonIcons:149 com.oplusos.systemui.navbar.view.OplusNavigationBarView.updateUseInputMethod:141 com.oplusos.systemui.navbar.view.NavBarViewProxy.updateVisibility:64 com.oplusos.systemui.navbar.view.NavBarViewPresenterImpl.updateVisibility:83 com.oplusos.systemui.navbar.view.NavBarViewModelImpl.updateVisibility:87 com.oplusos.systemui.navbar.NavBarProxyManager.updateVisibility:132 com.oplusos.systemui.navbar.view.OplusNavigationBarFragment.updateVisibility:193
+07-04 15:28:54.595   612   612 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+07-04 15:28:54.595   938   938 D OplusExLayer: ~Layer() sequence=63885, name=Surface(name=44bf6fc StatusBar)/@0x6e28e63 - animation-leash#1
+07-04 15:28:54.595   938   938 D OplusExLayer: ~Layer() sequence=63886, name=Surface(name=1a0f092 NavigationBar0)/@0x96afa60 - animation-leash#1
+07-04 15:28:54.596  1548  3263 I InputDispatcher: Window went away: com.example.dogglers/com.example.dogglers.GridListActivity#0
+07-04 15:28:54.599   938  1009 I BufferQueueProducer: [com.example.dogglers/com.example.dogglers.GridListActivity#0](id:3aa00003b0d,api:1,p:18070,c:938) connect(): api=1 producerControlledByApp=false
+07-04 15:28:54.611  1186  1320 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[1165.000000,,160.000000,,43.000000,0.000000,447430593058169]
+07-04 15:28:54.612  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:54.612  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:54.627 18070 18070 D skia    : SkJpegCodec::onGetPixels +
+07-04 15:28:54.631 18070 18070 D skia    : SkJpegCodec::onGetPixels -
+07-04 15:28:54.639 18070 18070 D skia    : SkJpegCodec::onGetPixels +
+07-04 15:28:54.641 15933 15991 I Finsky  : [14994] ydp.a(29): Skipping Gramophone warning due to shell install
+07-04 15:28:54.644 18070 18070 D skia    : SkJpegCodec::onGetPixels -
+07-04 15:28:54.648   918  1211 D AudioPolicyService: updateUidStates_l() current->uid=10146 current->pid=4431 allowCapture=1 UidState=5 apmStat=1
+07-04 15:28:54.660 18070 18070 D skia    : SkJpegCodec::onGetPixels +
+07-04 15:28:54.664 18070 18070 D skia    : SkJpegCodec::onGetPixels -
+07-04 15:28:54.673 18070 18070 D skia    : SkJpegCodec::onGetPixels +
+07-04 15:28:54.675 18070 18070 D skia    : SkJpegCodec::onGetPixels -
+07-04 15:28:54.697 18070 18107 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+07-04 15:28:54.705  1185 15883 W MtkOmxVdecExV4L2: ## [WARNING, 110] GetCmd() line: 407 No command in 5 seconds ...
+07-04 15:28:54.771  1186  1320 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[1165.000000,,100.000000,,43.000000,0.000000,447430753219304]
+07-04 15:28:54.772  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:54.772  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:54.779 25807 17922 I System.out: [OkHttp] sendRequest<<
+07-04 15:28:54.784   938  1728 D DispPerfService: onframeavailable pid=18070, slot=4, seq=63889, name=com.example.dogglers:com.example.dogglers/com.example.dogglers.GridListActivity#0
+07-04 15:28:54.790  1548  1583 D ArtManagerInternalImpl: /data/misc/iorapd/com.example.dogglers/1/com.example.dogglers.GridListActivity/compiled_traces/compiled_trace.pb doesn't exist
+07-04 15:28:54.791  1548  1583 I ActivityTaskManager: Displayed com.example.dogglers/.GridListActivity: +493ms
+07-04 15:28:54.793  1548  1574 D View    : [Warning] assignParent to null: this = DecorView@23a126f[dogglers]
+07-04 15:28:54.793   938  1728 I BufferQueueProducer: [Splash Screen com.example.dogglers#0](id:3aa00003b0c,api:2,p:1548,c:938) disconnect(): api=2
+07-04 15:28:54.795   938  1728 D DispPerfService: get hint proc=Surface(name=2d9209b Splash Screen com.example.dogglers), idx=1 none
+07-04 15:28:54.795  1548  2340 I InputDispatcher: Focus entered window: Window{7d89ce8 u0 com.example.dogglers/com.example.dogglers.GridListActivity} in display 0
+07-04 15:28:54.808  1548  1574 I InputTransport: Destroy ARC handle: 0xb400007cc237a720
+07-04 15:28:54.816 18070 18070 W xample.doggler: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+07-04 15:28:54.816 18070 18070 W xample.doggler: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+07-04 15:28:54.816 18070 18070 W xample.doggler: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+07-04 15:28:54.817   938   938 D OplusExLayer: ~Layer() sequence=63892, name=Surface(name=2d9209b Splash Screen com.example.dogglers)/@0x14c24a4 - animation-leash#0
+07-04 15:28:54.817   938   938 D OplusExLayer: ~Layer() sequence=63883, name=2d9209b Splash Screen com.example.dogglers#0
+07-04 15:28:54.818  1548  3263 D InputMethodManagerService: isSecurity: attribute.packageName=com.example.dogglers mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-04 15:28:54.818  1548  3263 D InputMethodManagerService: isSecurity= false (  enable=false needShow=false inBlackList=false isExist=false )
+07-04 15:28:54.818  1548  2340 I InputDispatcher: Window went away: Window{2d9209b u0 Splash Screen com.example.dogglers}
+07-04 15:28:54.818   938   938 I BufferQueueConsumer: [Splash Screen com.example.dogglers#0](id:3aa00003b0c,api:0,p:-1,c:938) disconnect()
+07-04 15:28:54.818   938   938 I BufferQueue: [Splash Screen com.example.dogglers#0](this:0xb40000737423dc58,id:15116,api:2,p:-1,c:-1) onDestructor()
+07-04 15:28:54.819   938   938 D OplusExLayer: ~Layer() sequence=63884, name=Splash Screen com.example.dogglers#0
+07-04 15:28:54.819  1548  3263 D VerificationCodeController: notifyImeAttributeChanged: 64false
+07-04 15:28:54.823 22357 22357 I InputTransport: Create ARC handle: 0xb400007e9102fea0
+07-04 15:28:54.823 18070 18070 W xample.doggler: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+07-04 15:28:54.823 18070 18070 W xample.doggler: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+07-04 15:28:54.823 18070 18070 W xample.doggler: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+07-04 15:28:54.827   938  1532 D DispPerfService: get hint proc=Surface(name=2e3c86d InputMethod), idx=1 none
+07-04 15:28:54.827 18070 18070 I ViewInteraction: Checking 'com.example.dogglers.BaseTest$DrawableMatcher$RecyclerViewAssertion@38eefce' assertion on view view.getId() is <2131230937/com.example.dogglers:id/grid_recycler_view>
+07-04 15:28:54.828 22357 22357 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+07-04 15:28:54.828   904   925 I mtkpower@impl: [setMode] type:5, enabled:0
+07-04 15:28:54.829 22357 22357 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = false, unlocked = true
+07-04 15:28:54.830 22357 22357 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1923 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+07-04 15:28:54.831 22357 22357 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = true, unlocked = true
+07-04 15:28:54.832 22357 22357 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@24657c1, this = DecorView@6f65b66[InputMethod]
+07-04 15:28:54.835  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269966, tid:1945
+07-04 15:28:54.835   938  1532 D DispPerfService: get hint proc=ActivityRecord{bbf5bcf u0 com.example.dogglers, idx=1 none
+07-04 15:28:54.835  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269966, dur:0, num:16, tid:1945
+07-04 15:28:54.836   904   971 I libPowerHal: [perfLockRel] hdl:269966, idx:0
+07-04 15:28:54.836   904   971 I libPowerHal: [PD] scn:0 hdl:269966 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.836   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1 -1 -1
+07-04 15:28:54.836   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 1410000=>0, 1c3c000=>1, 2004100=>0,
+07-04 15:28:54.836   904   925 I mtkpower@impl: [setMode] type:5, enabled:1
+07-04 15:28:54.837  1548  1945 I mtkpower_client: ret_hdl:269967
+07-04 15:28:54.837   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269967 hint:-1 pid:1548 duration:0 => ret_hdl:269967
+07-04 15:28:54.837   904   971 I libPowerHal: [PE] scn:0 hdl:269967 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.837   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.838   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>15, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.841 18070 18070 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@fd7059b in: PAUSED
+07-04 15:28:54.841 18070 18070 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.GridListActivity@fd7059b
+07-04 15:28:54.844  1548  3263 I InputDispatcher: setFocusedApplication displayId=0 <invalid>
+07-04 15:28:54.844   904   971 I libPowerHal: [perfNotifyAppState] [activity updated] pack:com.example.dogglers, act:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+07-04 15:28:54.844   904   971 I libPowerHal: Act_Match:0, Common_index:-1
+07-04 15:28:54.844   904   924 I mtkpower@impl: [notifyAppState] act com.example.dogglers.GridListActivity => androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+07-04 15:28:54.845  1548  3263 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+07-04 15:28:54.848 18070 18135 D libMEOW : applied 0 plugin for [com.example.dogglers].
+07-04 15:28:54.849  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269967, tid:1945
+07-04 15:28:54.849  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269967, dur:0, num:16, tid:1945
+07-04 15:28:54.849   904   971 I libPowerHal: [perfLockRel] hdl:269967, idx:0
+07-04 15:28:54.849   904   971 I libPowerHal: [PD] scn:0 hdl:269967 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.850   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1 -1 -1
+07-04 15:28:54.850   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 1410000=>0, 1c3c000=>1, 2004100=>0,
+07-04 15:28:54.851 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8 in: PRE_ON_CREATE
+07-04 15:28:54.851 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8
+07-04 15:28:54.851  1548  1945 I mtkpower_client: ret_hdl:269968
+07-04 15:28:54.853   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269968 hint:-1 pid:1548 duration:0 => ret_hdl:269968
+07-04 15:28:54.853   904   971 I libPowerHal: [PE] scn:0 hdl:269968 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.853   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.853   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>15, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.861 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8 in: CREATED
+07-04 15:28:54.861 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8
+07-04 15:28:54.862  1548  4490 I InputDispatcher: Focus left window: Window{7d89ce8 u0 com.example.dogglers/com.example.dogglers.GridListActivity} in display 0
+07-04 15:28:54.863  1548  4490 I InputDispatcher: Window went away: Window{7d89ce8 u0 com.example.dogglers/com.example.dogglers.GridListActivity}
+07-04 15:28:54.863 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8 in: STARTED
+07-04 15:28:54.863 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8
+07-04 15:28:54.865 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8 in: RESUMED
+07-04 15:28:54.865 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8
+07-04 15:28:54.865 18070 18070 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@ee7094[]
+07-04 15:28:54.866   938  1532 I SurfaceFlinger: [SF client] NEW(0xb400007387055d80) for (18070:com.example.dogglers)
+07-04 15:28:54.868 18070 18070 D ViewRootImpl[InstrumentationActivityInvoker$EmptyActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+07-04 15:28:54.869   938  1009 D DispPerfService: get hint proc=7510d5 com.example.dogglers, idx=1 none
+07-04 15:28:54.871 18070 18070 I InputTransport: Create ARC handle: 0xb400007e7e61dd20
+07-04 15:28:54.871 18070 18070 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@28a7083, this = DecorView@ee7094[InstrumentationActivityInvoker$EmptyActivity]
+07-04 15:28:54.875  2144 18099 D IAtlas  : IAtlas::init CallingPid 2144
+07-04 15:28:54.876  2144 18099 D IAtlas  : IAtlas::init this 0xb400007da29082e0
+07-04 15:28:54.876  2144 18099 D MediaPlayerNative: pid : 2144 uid : 10120
+07-04 15:28:54.876  2144  2144 V MediaRouter: Selecting route: RouteInfo{ name=Puhelin, description=null, status=null, category=RouteCategory{ name=Järjestelmä types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+07-04 15:28:54.876  2144 18099 D AtlasUtilsHelper: packageName com.android.systemui
+07-04 15:28:54.876  2144 18099 D MediaPlayerNative: checkZenmodePid, tPackageName =com.android.systemui
+07-04 15:28:54.876  2144 18099 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+07-04 15:28:54.877  1130 18103 I GenericSource: start
+07-04 15:28:54.877  4431  5741 D AudioManager: getStreamVolume packageName=com.google.android.googlequicksearchbox, index=11, streamType=5
+07-04 15:28:54.878   918  1211 D APM_AudioPolicyManager: isOffloadSupported: disable offload for AP audio effects, return false.
+07-04 15:28:54.878   938  1009 D DispPerfService: get hint proc=com.example.dogglers, idx=1 none
+07-04 15:28:54.878   938  1009 I BufferQueueConsumer: [](id:3aa00003b0e,api:0,p:-1,c:938) connect(): controlledByApp=false
+07-04 15:28:54.878   938  1009 I BufferQueue: [unnamed-938-15118](this:0xb400007427500258,id:15118,api:0,p:-1,c:-1) BufferQueue core=(938:/system/bin/surfaceflinger)
+07-04 15:28:54.879  1130 18103 D OplusNuPlayer: [instantiateDecoder:L443] codeID A:15005 V:0 tryffmpeg A:0 V:0
+07-04 15:28:54.880   918  1211 D APM_AudioPolicyManager: isOffloadSupported: disable offload for AP audio effects, return false.
+07-04 15:28:54.880   938  1009 D DispPerfService: get hint proc=Surface(name=44bf6fc StatusBar), idx=1 none
+07-04 15:28:54.880  1130 18138 D OplusUtils: [createCustomComponentByName:L158] NuPlayer IN msg:AMessage(what = 0x00000000) = {
+07-04 15:28:54.880  1130 18138 D OplusUtils:   string mime = "audio/vorbis"
+07-04 15:28:54.880  1130 18138 D OplusUtils:   int64_t durationUs = 186938
+07-04 15:28:54.880  1130 18138 D OplusUtils:   Buffer csd-0 = {
+07-04 15:28:54.880  1130 18138 D OplusUtils:     00000000:  01 76 6f 72 62 69 73 00  00 00 00 01 22 56 00 00  .vorbis....."V..
+07-04 15:28:54.880  1130 18138 D OplusUtils:     00000010:  00 00 00 00 87 5f 01 00  00 00 00 00 a9 01        ....._........
+07-04 15:28:54.880  1130 18138 D OplusUtils:   }
+07-04 15:28:54.880  1130 18138 D OplusUtils:   Buffer *csd-1 = 0xef8a8110
+07-04 15:28:54.880  1130 18138 D OplusUtils:   int32_t bitrate = 89991
+07-04 15:28:54.880  1130 18138 D OplusUtils:   int32_t channel-count = 1
+07-04 15:28:54.880  1130 18138 D OplusUtils:   int32_t sample-rate = 22050
+07-04 15:28:54.880  1130 18138 D OplusUtils:   int32_t channel-mask = 1
+07-04 15:28:54.880  1130 18138 D OplusUtils:   int32_t priority = 0
+07-04 15:28:54.880  1130 18138 D OplusUtils:   int64_t feedbackKey = 9293938586005189
+07-04 15:28:54.880  1130 18138 D OplusUtils: }
+07-04 15:28:54.880   938  1009 D DispPerfService: get hint proc=Surface(name=1a0f092 NavigationBar0), idx=1 none
+07-04 15:28:54.881  1548  2719 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+07-04 15:28:54.882  1130 18139 D CCodec  : allocate(c2.android.vorbis.decoder)
+07-04 15:28:54.882  1219 11206 V C2Store : in init
+07-04 15:28:54.882  1219 11206 V C2Store : loading dll
+07-04 15:28:54.884   938  1009 I BufferQueueProducer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0](id:3aa00003b0e,api:1,p:18070,c:938) connect(): api=1 producerControlledByApp=false
+07-04 15:28:54.886  1130 18139 I CCodec  : Created component [c2.android.vorbis.decoder]
+07-04 15:28:54.886  1130 18139 D CCodecConfig: read media type: audio/vorbis
+07-04 15:28:54.886  1130 18139 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+07-04 15:28:54.886  1130 18139 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+07-04 15:28:54.886  1130 18139 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+07-04 15:28:54.886  1130 18139 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+07-04 15:28:54.886  1130 18139 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+07-04 15:28:54.886  1130 18139 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+07-04 15:28:54.887  1130 18139 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+07-04 15:28:54.887  1130 18139 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+07-04 15:28:54.887  1130 18139 D CCodecConfig: c2 config diff is Dict {
+07-04 15:28:54.887  1130 18139 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+07-04 15:28:54.887  1130 18139 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+07-04 15:28:54.887  1130 18139 D CCodecConfig:   c2::u32 input.delay.value = 0
+07-04 15:28:54.887  1130 18139 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+07-04 15:28:54.887  1130 18139 D CCodecConfig:   string output.media-type.value = "audio/raw"
+07-04 15:28:54.887  1130 18139 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+07-04 15:28:54.887  1130 18139 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+07-04 15:28:54.887  1130 18139 D CCodecConfig: }
+07-04 15:28:54.888  1130 18139 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+07-04 15:28:54.888  1130 18139 D CCodecConfig: no c2 equivalents for durationUs
+07-04 15:28:54.888  1130 18139 D CCodecConfig: no c2 equivalents for csd-1
+07-04 15:28:54.888  1130 18139 D CCodecConfig: no c2 equivalents for channel-mask
+07-04 15:28:54.888  1130 18139 D CCodecConfig: no c2 equivalents for feedbackKey
+07-04 15:28:54.888  1130 18139 D CCodecConfig: no c2 equivalents for flags
+07-04 15:28:54.888  1130 18139 D CCodecConfig: c2 config diff is   c2::u32 raw.sample-rate.value = 22050
+07-04 15:28:54.888  1130 18139 W Codec2Client: query -- param skipped: index = 1107298332.
+07-04 15:28:54.888  1130 18139 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+07-04 15:28:54.888  1130 18139 D CCodec  :   int32_t channel-count = 1
+07-04 15:28:54.888  1130 18139 D CCodec  :   int32_t max-input-size = 32768
+07-04 15:28:54.888  1130 18139 D CCodec  :   string mime = "audio/vorbis"
+07-04 15:28:54.888  1130 18139 D CCodec  :   int32_t sample-rate = 22050
+07-04 15:28:54.888  1130 18139 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+07-04 15:28:54.888  1130 18139 D CCodec  :   int32_t channel-count = 1
+07-04 15:28:54.888  1130 18139 D CCodec  :   string mime = "audio/raw"
+07-04 15:28:54.888  1130 18139 D CCodec  :   int32_t sample-rate = 22050
+07-04 15:28:54.888  1130 18139 D CCodec  :   int32_t channel-mask = 1
+07-04 15:28:54.888  1130 18139 D CCodec  : }
+07-04 15:28:54.888  1130 18139 I MediaCodec: MediaCodec will operate in async mode
+07-04 15:28:54.889  1130 18139 W Codec2Client: query -- param skipped: index = 1342179345.
+07-04 15:28:54.889  1130 18139 W Codec2Client: query -- param skipped: index = 2415921170.
+07-04 15:28:54.889  1130 18139 E FMQ     : grantorIdx must be less than 3
+07-04 15:28:54.889  1130 18139 E FMQ     : grantorIdx must be less than 3
+07-04 15:28:54.889  1130 18139 D CCodecBufferChannel: [c2.android.vorbis.decoder#495] Created input block pool with allocatorID 16 => poolID 491 - OK (0)
+07-04 15:28:54.889  1219 15968 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000072f7825628 cached: 0/0M, 0/0% in use; allocs: 12, 67% recycled; transfers: 11, 64% unfetched
+07-04 15:28:54.889  1130 21878 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xea799398 cached: 0/0M, 0/0% in use; allocs: 19, 42% recycled; transfers: 28, 64% unfetched
+07-04 15:28:54.889  1130 18139 I CCodecBufferChannel: [c2.android.vorbis.decoder#495] Created output block pool with allocatorID 16 => poolID 2710 - OK
+07-04 15:28:54.889  1130 18139 D CCodecBufferChannel: [c2.android.vorbis.decoder#495] Configured output block pool ids 2710 => OK
+07-04 15:28:54.890  1219 18140 D SimpleC2Component: Using output block pool with poolID 2710 => got 2710 - 0
+07-04 15:28:54.890  1130 18139 E FMQ     : grantorIdx must be less than 3
+07-04 15:28:54.893  1130 21878 E FMQ     : grantorIdx must be less than 3
+07-04 15:28:54.896  1548  2719 I InputDispatcher: Window went away: com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+07-04 15:28:54.902   918  1211 V AudioPolicyIntefaceImpl: getOutput()
+07-04 15:28:54.902   918  1211 V AudioPolicyIntefaceImpl: getOutput()
+07-04 15:28:54.903  1130 18137 D AudioTrack: INSP: type=audio,case=1,set=0xea1c3880,stream_type=5,sample_rate=22050,format=0x1,channel_mask=0x1,frame_count=11280,flags=0x0,notification_frames=0,session_id=28017,transfer_type=0,uid=10120,pid=2144
+07-04 15:28:54.903  1130 18137 D AudioTrack: INSP: type=audio,case=1,attributes=1,content_type=4,usage=5,source=-1,flags=0x800
+07-04 15:28:54.903  1130 18137 D mediaserver: set() ro.oplus.audio.effect.type = dirac
+07-04 15:28:54.903  1130 18137 D AudioTrack: set() streamType 5, sampleRate 22050, format 0x1, channelMask 0x1, frameCount 11280, flags #0, notificationFrames 0, sessionId 28017, transferType 0, uid 10120, pid 2144 cbf 0
+07-04 15:28:54.903  1130 18137 D AudioTrack: gATLogLevel = 0
+07-04 15:28:54.903  1130 18137 D AudioTrack: set(): Building AudioTrack with attributes: usage=5 content=4 flags=0x800 tags=[]
+07-04 15:28:54.903   918  1211 V AudioPolicyIntefaceImpl: getOutputForAttr()
+07-04 15:28:54.904   918  1211 D APM_AudioPolicyManager: getOutputForDevices session 28017 stream 5 flags 0
+07-04 15:28:54.904   918  1211 D OplusAudioVoiceScence: addOutputMtkAudioScence sample_rate=22050, is_voice_scence_enable(1)
+07-04 15:28:54.904   918  1211 D voice_scence_discern: add name:sample_rate,  value:22050
+07-04 15:28:54.904   918  1211 V voice_scence_discern: add name:sample_rate value:22050 list:0xb400007e9d04b6a0
+07-04 15:28:54.904   918  1211 D voice_scence_discern: add name:channels,  value:1
+07-04 15:28:54.904   918  1211 V voice_scence_discern: add name:channels value:1 list:0xb400007e9d04b6a0
+07-04 15:28:54.904   918  1211 D AudioFlinger: getClientPidBeforeStarted Track is created by MediaPlayer
+07-04 15:28:54.904   918  1211 E MMListParser: getProcessNameByPid bad param
+07-04 15:28:54.904   918  1211 D voice_scence_discern: can not get the process name pid:-1.
+07-04 15:28:54.904   918  1211 D OplusAudioVoiceScence: scenceState=0, callingPid=-1
+07-04 15:28:54.904   938  1009 D DispPerfService: onframeavailable pid=18070, slot=0, seq=63896, name=com.example.dogglers:com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+07-04 15:28:54.905   918  1211 D APM_AudioPolicyManager: [MTK_APM_Output]getOutputForAttr() returns output 13 requestedPortId 0 selectedDeviceId 3 for port ID 5555, sample_rate 22050, format 1, channel_mask 1, flags 0 stream 5
+07-04 15:28:54.905   918  1190 V GameAudioEffects: outputSelected a new track request output with porId(5555), session(28017), uid(10120) stream(5) flags(0x0)
+07-04 15:28:54.905   918  1211 D AudioFlinger_Threads: createTrack_l output 13  latencyMs 42 mNormalFrameCount 1024 mSampleRate 48000
+07-04 15:28:54.905   918  1211 D AudioFlinger_Threads: createTrack_l output 13 minFrameCount 948 frameCount 11280
+07-04 15:28:54.905   918  1211 D AudioFlinger_Threads: Client defaulted notificationFrames to 3760 for frameCount 11280
+07-04 15:28:54.905   918  1211 D AudioFlinger_Threads: createTrack_l output 13 final frameCount 11280 for track session 28017 , mFrameCount 1024, mNormalFrameCount 1024, notificationFrameCount 3760
+07-04 15:28:54.905   918  1211 D AF::Track: Track, track(0xb400007e9d094800): mFastIndex -1, mStreamType 5, mId 3884, mFrameCount 11280, mSampleRate 22050, mFormat 1, mChannelCount 1, mTrackCount 3829, thread 0xb400007eadb12080, sessionId 28017, AudioOut_D, primary-2
+07-04 15:28:54.906   918  1211 D AF::TrackHandle: OpPlayAudio: track:3884 usage:5 not muted
+07-04 15:28:54.908  1130 18137 D AudioTrack: createTrack_l(5555): 0xea1c3880, mCblk = 0xe5600000, mLatency = 553, mAfLatency = 42, frameCount = 11280, mSampleRate = 22050, mFlags = 0, mReqFrameCount = 11280, mNotificationFramesAct = 3760
+07-04 15:28:54.908  1548  1583 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +73ms
+07-04 15:28:54.908  1130 18137 D AudioTrack: gATLogLevel = 0
+07-04 15:28:54.908  1130 18137 D AudioTrack: setVolume(5555): 0xea1c3880, left = 1.000000, right = 1.000000
+07-04 15:28:54.908  1130 18137 D AudioTrack: setVolume(5555): 0xea1c3880, left = 1.000000, right = 1.000000
+07-04 15:28:54.908  1130 18137 D AudioTrack: start(5555): prior state:STATE_STOPPED output 13 stream 5 session 28017
+07-04 15:28:54.909   918  1211 D AudioSystem: +setParameters(): RingTrack=1
+07-04 15:28:54.909   877  1927 D AudioALSAHardware: +setParameters(): RingTrack=1
+07-04 15:28:54.909   877  1927 D AudioALSAHardware: =====>GetInstance()->MMI_Auto_Test
+07-04 15:28:54.909   877  1927 D audio_engineer_test: do_audio_test_process Enter all_test[0]:NoneTest in_call:false
+07-04 15:28:54.909   877  1927 D VIBRATOR_RING_SYNC: VIBRATE
+07-04 15:28:54.909   877  1927 E VIBRATOR_RING_SYNC: WROTE
+07-04 15:28:54.909   877  1927 D VIBRATOR_RING_SYNC: VIBRATE done!.
+07-04 15:28:54.909   877  1927 D AudioALSAHardware: -setParameters(): RingTrack=1
+07-04 15:28:54.910   918  1211 V AudioPolicyIntefaceImpl: startOutputSamplerate(), portId = 5555, samplerate = 22050
+07-04 15:28:54.910   918  1211 D AudioPolicyManagerCustomImpl: hifiAudio_startOutputSamplerate() +output = 5555  +samplerate = 22050 mPrimaryOutput = 13 HifiState = 1 stream 5, session 28017
+07-04 15:28:54.910   918  1211 D AudioPolicyManagerCustomImpl: getMaxTrackSampleRate 48000
+07-04 15:28:54.910   918  1211 D APM_AudioPolicyManager: startOutput portId 5555
+07-04 15:28:54.910   918  1211 D APM_AudioPolicyManager: startOutput() output 13, stream 5, session 28017
+07-04 15:28:54.910   918  1211 V GameAudioEffects: outputStarted  portId(5555)
+07-04 15:28:54.910   918  1211 D APM_AudioPolicyManager: setOutputDevice() output 13 device ** force 1 delayMs 0
+07-04 15:28:54.911  1151 10186 D OplusAudioState: updateAudioState eventId:7
+07-04 15:28:54.912 22357 22357 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@24657c1, this = DecorView@6f65b66[InputMethod]
+07-04 15:28:54.912   918  1188 D AudioFlinger_Threads: updateOutDevices and get record thread mlock
+07-04 15:28:54.912   918  1188 D AudioFlinger_Threads: -updateOutDevices and release record thread mlock
+07-04 15:28:54.913   877  1927 D AudioALSAHardware: +createAudioPatch() num_sources [1] , num_sinks [1], handle [0xa44], current mAudioHalPatchVector size 5
+07-04 15:28:54.913   877  1927 D AudioALSAHardware: createAudioPatch() createAudioPatch Mixer->0x00000002, handle 2628
+07-04 15:28:54.913   877  1927 D AudioALSAStreamManager: +setParameters(), IOport = 13, keyValuePairs = routing=2
+07-04 15:28:54.913   877  1927 D AudioALSAStreamManager: setParameters(), Send to mStreamOutVector[0], flag 2
+07-04 15:28:54.913   877  1927 D AudioALSAStreamOut: updatePolicyDevice(), flag: 0x2, device: 0x2
+07-04 15:28:54.913   877  1927 D AudioALSAStreamOut: updatePolicyDevice(), flag: 0x8, device: 0x2
+07-04 15:28:54.913   877  1927 D AudioALSAStreamOut: updatePolicyDevice(), flag: 0x4, device: 0x2
+07-04 15:28:54.913   877  1927 D AudioALSAStreamOut: updatePolicyDevice(), flag: 0x8000, device: 0x2
+07-04 15:28:54.913   877  1927 D AudioALSAStreamOut: updatePolicyDevice(), flag: 0x10000, device: 0x2
+07-04 15:28:54.913   877  1927 W AudioALSAStreamManager: routingOutputDevice(), flag: 0x2, output_devices == current_output_devices(0x00000002), return
+07-04 15:28:54.913   877  1927 D AudioIEMsController: routing(+), cur out 0x0 in 0x0, hs 0, bt 0, usb 0, device 0x2, mask 0x1, on 0
+07-04 15:28:54.913   877  1927 D AudioIEMsController: routing(-), cur out 0x0 in 0x0
+07-04 15:28:54.913  1548  4490 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-04 15:28:54.913   877  1927 D AudioALSAStreamOut: +paMuteSetParameters(): flag 2, routing=2
+07-04 15:28:54.913   877  1927 D AudioALSAHardware: createAudioPatch() new handle [0xa45] current mAudioHalPatchVector size 5
+07-04 15:28:54.913   877  1927 D AudioALSAHardware: -createAudioPatch() num_sources [1] , num_sinks [1], handle [0xa45]
+07-04 15:28:54.913  1548  4490 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-04 15:28:54.914   918  1211 W APM::AudioPolicyEngine/ProductStrategy: getVolumeGroupForStreamType: no volume group for AUDIO_STREAM_DEFAULT, using default
+07-04 15:28:54.915   918  1211 I chatty  : uid=1041(audioserver) Binder:918_2 identical 8 lines
+07-04 15:28:54.915   918  1211 W APM::AudioPolicyEngine/ProductStrategy: getVolumeGroupForStreamType: no volume group for AUDIO_STREAM_DEFAULT, using default
+07-04 15:28:54.915   918  1211 D AudioFlinger_Threads: add track_l: stream(5), fast(0), device(AUDIO_DEVICE_OUT_SPEAKER), isOutputDeepBuffer(0) isVoicePlayback(0)
+07-04 15:28:54.915  1548  1872 I OplusWifiSarManager: Received action: android.media.ACTION_AUDIO_DEVICE_ROUTE_CHANGED
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: onAudioDeviceRouteStateChanged: 2
+07-04 15:28:54.916   877  8534 D AudioALSAStreamManager: +syncSharedOutDevice(), originDevice/routingSharedOutDevice: 0x2/0x2, mAudioMode: 0
+07-04 15:28:54.916  1548  1872 D OplusWifiSarManager: set wifi_dbs_enable to false
+07-04 15:28:54.916  1548  1872 D OplusWifiSarManager: wifiBand mWifi2gState:true mWifi5gState: false mWifi5gBand:WIFI_5G_DISABLE
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sar sensor state:
+07-04 15:28:54.916   877  8534 D AudioIEMsController: routing(+), cur out 0x0 in 0x0, hs 0, bt 0, usb 0, device 0x2, mask 0x1, on 0
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 0, state: NEAR
+07-04 15:28:54.916   877  8534 D AudioIEMsController: routing(-), cur out 0x0 in 0x0
+07-04 15:28:54.916   877  8534 D AudioMTKGainController: setNormalVolume(), mSceneIndex = 0, stream 5, devices 0x2, index 11, mode 0x0
+07-04 15:28:54.916   877  8534 D AudioMTKGainController: setNormalVolume(), mSceneIndex = 0, stream 5, devices 0x2, index 11, mode 0x0, gainDevice 0x2
+07-04 15:28:54.916   877  8534 D AudioALSAStreamOut: open(), flags 2
+07-04 15:28:54.916   877  8534 D AudioALSAStreamOut: open() checkCardClose 0
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 1, state: NEAR
+07-04 15:28:54.916   877  8534 D audio_engineer_test: disable_force_test: disable=0 force_test_dis=0 stream_open_count=0
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 2, state: NEAR
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 3, state: NEAR
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 4, state: NEAR
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 5, state: NEAR
+07-04 15:28:54.916   877  8534 D AudioALSAStreamManager: +createPlaybackHandler(), mAudioMode = 0, output_devices = 0x2, isMixerOut = 0, isBypassAurisys = 0, flag = 2, isIEMsSource = 0, isIEMsOn = 0
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 6, state: NEAR
+07-04 15:28:54.916   877  8534 D AudioALSAStreamManager: needEnableVoip(), output_devices = 0x2, flags: 0x2, mAvailableOutputFlags: 0x1c00f, enable: 0
+07-04 15:28:54.916   877  8534 D AudioSpeechEnhanceInfo: IsAPDMNRTuningEnable(), 0
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 7, state: NEAR
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 8, state: NEAR
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 9, state: NEAR
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 10, state: NEAR
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 11, state: NEAR
+07-04 15:28:54.916   877  8534 D AudioDspStreamManager: getDspOutHandlerEnable flag = 2 ret = 5 device = 2 device_support = 2 retval = 1
+07-04 15:28:54.916  1548  1872 I OplusWifiSarManager: sensor index: 12, state: NEAR
+07-04 15:28:54.916   877  8534 D AudioALSAPlaybackHandlerDsp: AudioALSAPlaybackHandlerDsp() mPlaybackHandlerType = 0
+07-04 15:28:54.916   877  8534 D AudioALSAStreamOut: open() checkCardClose 1
+07-04 15:28:54.916   877  8534 D audio_engineer_test: disable_force_test: disable=1 force_test_dis=0 stream_open_count=0
+07-04 15:28:54.916   877  8534 D AudioALSADeviceParser: compare pcm success = 62, stringpair = DSP_Playback_Primary
+07-04 15:28:54.916   877  8534 D AudioALSAPlaybackHandlerDsp: chooseTargetSampleRate() hifi_enable = 1 device_support_hifi = 0, PrimarySampleRate = 48000
+07-04 15:28:54.916  1548  2719 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+07-04 15:28:54.916   877  8534 D AudioALSAPlaybackHandlerBase: transferAudioFormatToPcmFormat(), audio_format(0x3) => pcm_format(0x1)
+07-04 15:28:54.916   877  8534 D AudioALSAPlaybackHandlerDsp: open(), flag 2, mDevice = 0x2, mConfig: channels = 2, rate = 48000, period_size = 512, period_count = 4, format = 1 avail_min = 0
+07-04 15:28:54.916   877  8534 D audio_messenger_ipi: audio_ipi_dma_cbk_register(), task 7, sz 32768/69632, cbk 0xf001eab4, arg 0xe8685700
+07-04 15:28:54.917   877  8534 D aurisys_utility: input dev: 0x80000080, fmt = 0x3, fs: 48000, max fs: 48000, ch: 2, max ch: 3, ch maks: 0x3, hw_info_mask: 0x0; output dev: 0x2, fmt = 0x3, fs: 48000, max fs: 48000, ch: 2, max ch: 2, ch maks: 0x3, hw_info_mask: 0xc; task_scene: 7, audio_mode: 0, stream_type: 5, output_flags: 0x2, input_source: 0, input_flags: 0x2; network_info: 0, enhancement_feature_mask: 0x0
+07-04 15:28:54.917   877  8534 D AudioALSAHardware: UpdateScenceToDsp(), mInputScence = 0, mOutputScence = 0, attribute_out->sample_rate = 48000
+07-04 15:28:54.917   877  8534 D AudioALSAHardware: UpdateMultiRecordScenceToDsp(), mInputScence = 0, mOutputScence = 0
+07-04 15:28:54.917   877  8534 D AudioALSAHardware: UpdateVoicePlaybackScenceToDsp(), OutputGetScence = 0  , isModeInVoipCall = 0 , isModeInPhoneCall = 0
+07-04 15:28:54.917   877  8534 D oplus_audio_config: oplus_get_config(),unkonw config
+07-04 15:28:54.917   877  8534 D oplus_audio_config: oplus_is_config_support(),param null
+07-04 15:28:54.917   877  8534 D aurisys_utility: lib, working fs: 48000, fmt: 0x3, frame = 0, b_interleave = 1, num_ul_ref_buf_array = 0, num_dl_ref_buf_array = 0
+07-04 15:28:54.917   877  8534 D aurisys_utility: dl in[type:2], ch: 2, ch_mask: 0x3, buf fs: 48000, buf content fs: 48000, fmt: 0x3; dl out[type:3], ch: 2, ch_mask: 0x3, buf fs: 48000, buf content fs: 48000, fmt: 0x3
+07-04 15:28:54.917  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269968, tid:1945
+07-04 15:28:54.917   877  8534 D aurisys_lib_handler: aurisys_arsi_parsing_param_file(), gProductInfo "platform=MT6893,device=OP515BL1,model=DN2103", file_path "/vendor/etc/audio_param", enhancement_mode 0, param_buf_size 128, data_size 128, custom_info SetAudioCustomScene=
+07-04 15:28:54.917   877  8534 D audio_messenger_ipi: hal send, task: 7, msg_id: 0x15, ack_type: 1, p1: 0x2bc, p2: 0x0, dma sz: 0, idx: 0, hal sz: 700
+07-04 15:28:54.917  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269968, dur:0, num:16, tid:1945
+07-04 15:28:54.918   938   938 D OplusExLayer: ~Layer() sequence=63890, name=Surface(name=44bf6fc StatusBar)/@0x6e28e63 - animation-leash#0
+07-04 15:28:54.918   938   938 D OplusExLayer: ~Layer() sequence=63891, name=Surface(name=1a0f092 NavigationBar0)/@0x96afa60 - animation-leash#0
+07-04 15:28:54.918  1548  4490 I InputDispatcher: Focus entered window: Window{7510d5 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} in display 0
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: sensor index: 13, state: NEAR
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: sensor index: 14, state: NEAR
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: sensor index: 15, state: NEAR
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: project: 20831, country: FI
+07-04 15:28:54.919 18070 18070 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@fd7059b in: STOPPED
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: sensor state: earpiece: 2, sensor: null, isScreenOn: true
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: modem state: mCellOn: false mDataOn: false mData5gOn: false
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: wifi state: mWifiConnected: true mWifiSapEnabled: false mWifiP2pConnected: false mWifi2gState: true mWifi5gState: false mWifi5gBand: WIFI_5G_DISABLE
+07-04 15:28:54.919   938  1532 D DispPerfService: get hint proc=ActivityRecord{acac466 u0 com.example.dogglers, idx=1 none
+07-04 15:28:54.919 18070 18070 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.GridListActivity@fd7059b
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: wifisar engineerMode state: enable: false, Regdomain: , modemWorkType(2:4G, 3:5G): -1, sensorWorkType: -1, wifiChannel2.4G: -1, wifiChannel5G: -1
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: sensor index: 8, max: 11
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: sensor index: 8, sensor chain: 0, mLastSarSensorState: NEAR
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: sensor index: 9, sensor chain: 1, mLastSarSensorState: NEAR
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: sensor index: 10, sensor chain: 2, mLastSarSensorState: NEAR
+07-04 15:28:54.919  1548  1872 D OplusWifiSarManager: is countrylist Country FI
+07-04 15:28:54.919  1548  1872 D OplusWifiSarManager:  stateindex: 1858 mLastWifiSar: 1858
+07-04 15:28:54.919  1548  1872 I OplusWifiSarManager: no change: 1858
+07-04 15:28:54.919   904   924 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:269968, wait
+07-04 15:28:54.920   904   971 I libPowerHal: [perfLockRel] hdl:269968, idx:0
+07-04 15:28:54.920   904   971 I libPowerHal: [PD] scn:0 hdl:269968 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.920   904   925 I mtkpower@impl: [setMode] type:5, enabled:1
+07-04 15:28:54.920   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1 -1 -1
+07-04 15:28:54.920 18070 18070 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@66810f3, this = DecorView@e6b71b0[GridListActivity]
+07-04 15:28:54.920   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 1410000=>0, 1c3c000=>1, 2004100=>0,
+07-04 15:28:54.921   877  8534 D AudioALSAPlaybackHandlerBase: openPcmDriverWithFlag(), pcm device = 62 flag = 0x8 mPcm = 0xe620e2a0
+07-04 15:28:54.921   877  8534 D AudioDspStreamManager: dataPassToCodec output_devices = 0x2 mAudioOutputFlags = 2 devicecount = 1 ret = 1
+07-04 15:28:54.921   877  8534 D AudioDspStreamManager: dataPasstoDspAfe output_devices = 0x2 Flags = 2 isUseAdspPlaybackTask = 1 ret = 1
+07-04 15:28:54.921   877  8534 D AudioDspStreamManager: needOpenPlaybackTask ret = 1 mDspStreamState = 0 dspstartflag = 1
+07-04 15:28:54.921   877  8534 D AudioDspStreamManager: setDspRuntimeEn(), task_scene = 9, condition = 1
+07-04 15:28:54.921   877  8534 D AudioDspStreamManager: setDspRefRuntimeEn(), task_scene = 9, condition = 1
+07-04 15:28:54.921   877  8534 D audio_messenger_ipi: audio_ipi_dma_cbk_register(), task 9, sz 32768/65536, cbk 0xf001eab4, arg 0xe8685700
+07-04 15:28:54.921 18070 18070 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@fd7059b in: DESTROYED
+07-04 15:28:54.921   877  8534 D AudioALSADeviceParser: compare pcm success = 64, stringpair = DSP_Playback_Playback
+07-04 15:28:54.921   877  8534 D AudioALSADeviceParser: compare pcm success = 15, stringpair = Capture_6
+07-04 15:28:54.921   877  8534 D AudioALSADeviceParser: compare pcm success = 13, stringpair = Capture_4
+07-04 15:28:54.921   877  8534 D AudioALSADeviceParser: compare pcm success = 4, stringpair = Playback_4
+07-04 15:28:54.921   877  8534 D aurisys_utility: input dev: 0x0, fmt = 0x4, fs: 48000, max fs: 48000, ch: 2, max ch: 3, ch maks: 0xc, hw_info_mask: 0x0; output dev: 0x2, fmt = 0x4, fs: 48000, max fs: 48000, ch: 2, max ch: 2, ch maks: 0xc, hw_info_mask: 0xc; task_scene: 9, audio_mode: 0, stream_type: 5, output_flags: 0x800, input_source: 0, input_flags: 0x800; network_info: 0, enhancement_feature_mask: 0x0
+07-04 15:28:54.921   877  8534 D AudioALSAHardware: UpdateScenceToDsp(), mInputScence = 0, mOutputScence = 0, attribute_out->sample_rate = 48000
+07-04 15:28:54.921   877  8534 D AudioALSAHardware: UpdateMultiRecordScenceToDsp(), mInputScence = 0, mOutputScence = 0
+07-04 15:28:54.921   877  8534 D AudioALSAHardware: UpdateVoicePlaybackScenceToDsp(), OutputGetScence = 0  , isModeInVoipCall = 0 , isModeInPhoneCall = 0
+07-04 15:28:54.921   877  8534 D oplus_audio_config: oplus_get_config(),unkonw config
+07-04 15:28:54.921   877  8534 D oplus_audio_config: oplus_is_config_support(),param null
+07-04 15:28:54.921   877  8534 D aurisys_utility: lib, working fs: 48000, fmt: 0x4, frame = 0, b_interleave = 1, num_ul_ref_buf_array = 0, num_dl_ref_buf_array = 1
+07-04 15:28:54.921   877  8534 D aurisys_utility: dl in[type:2], ch: 2, ch_mask: 0x3, buf fs: 48000, buf content fs: 48000, fmt: 0x4; dl out[type:3], ch: 2, ch_mask: 0x3, buf fs: 48000, buf content fs: 48000, fmt: 0x4
+07-04 15:28:54.921   877  8534 D aurisys_utility: dl ref[type:5], ch: 2, ch_mask: 0x3, buf fs: 48000, buf content fs: 48000, fmt: 0x3
+07-04 15:28:54.921   877  8534 D aurisys_lib_handler: aurisys_arsi_parsing_param_file(), gProductInfo "platform=MT6893,device=OP515BL1,model=DN2103", file_path "/odm/etc/audio/smartpa_param/", enhancement_mode 0, param_buf_size 2656, data_size 2656, custom_info SetAudioCustomScene=
+07-04 15:28:54.921 18070 18070 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+07-04 15:28:54.921   877  8534 D audio_messenger_ipi: hal send, task: 9, msg_id: 0x15, ack_type: 1, p1: 0xc9c, p2: 0x0, dma sz: 0, idx: 0, hal sz: 3228
+07-04 15:28:54.922  1548  1945 I mtkpower_client: ret_hdl:269969
+07-04 15:28:54.922   904   971 E libPowerHal: input parameter exceed reasonable range 2020000 -1 15 0
+07-04 15:28:54.922   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269969 hint:-1 pid:1548 duration:0 => ret_hdl:269969
+07-04 15:28:54.922   904   971 I libPowerHal: [PE] scn:0 hdl:269969 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.922   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.922  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269969, tid:1945
+07-04 15:28:54.922  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269969, dur:0, num:16, tid:1945
+07-04 15:28:54.922   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>0, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.923   904   924 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:269969, wait
+07-04 15:28:54.923   904   971 I libPowerHal: [perfLockRel] hdl:269969, idx:0
+07-04 15:28:54.923   904   971 I libPowerHal: [PD] scn:0 hdl:269969 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.923   877  8534 D AudioDspStreamManager: openPlaybackTask: playbackhandler flags: 0x2
+07-04 15:28:54.923   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1 -1 -1
+07-04 15:28:54.923   877  8534 D AudioALSADeviceConfigManager: ApplyDeviceTurnonSequenceByName() DeviceName = TINYCONN_I2S0_TO_CAPTURE4 descriptor->DeviceStatusCounte = 0
+07-04 15:28:54.923   877  8534 D AudioALSADeviceConfigManager: ApplyDeviceTurnonSequenceByName() DeviceName = PLAYBACK4_TO_I2S3 descriptor->DeviceStatusCounte = 0
+07-04 15:28:54.924   877  8534 D AudioALSADeviceConfigManager: ApplyDeviceTurnonSequenceByName() DeviceName = SPK_OUT_DEVICE_CTRL_PRE_PMU descriptor->DeviceStatusCounte = 0
+07-04 15:28:54.924   938  1532 I BufferQueueProducer: [com.example.dogglers/com.example.dogglers.GridListActivity#0](id:3aa00003b0d,api:1,p:18070,c:938) disconnect(): api=1
+07-04 15:28:54.924   877  8534 D AudioDspStreamManager: openPlaybackTask(), mPlaybackDlConfig: channels = 2, rate = 48000, period_size = 512, period_count = 4, format = 3, mPlaybackIVConfig: channels = 2, rate = 48000, period_size = 512, period_count = 4, format = 1, mPlaybackUlConfig: channels = 2, rate = 48000, period_size = 512, period_count = 4, format = 3, mDspConfig: channels = 2, rate = 48000, period_size = 512, period_count = 4, format = 3
+07-04 15:28:54.924   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 1410000=>0, 1c3c000=>1, 2004100=>0,
+07-04 15:28:54.924 18070 18070 D View    : [Warning] assignParent to null: this = DecorView@e6b71b0[GridListActivity]
+07-04 15:28:54.925  1548  1945 I mtkpower_client: ret_hdl:269970
+07-04 15:28:54.925   904   971 E libPowerHal: input parameter exceed reasonable range 2020000 -1 15 0
+07-04 15:28:54.925   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269970 hint:-1 pid:1548 duration:0 => ret_hdl:269970
+07-04 15:28:54.925   904   971 I libPowerHal: [PE] scn:0 hdl:269970 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.925   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.926  1130 18139 D CCodecBufferChannel: [c2.android.vorbis.decoder#495] buffers after EOS ignored (0 us)
+07-04 15:28:54.926   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>0, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.926  1130 18139 D CCodecBufferChannel: [c2.android.vorbis.decoder#495] buffers after EOS ignored (0 us)
+07-04 15:28:54.927  1130 18139 D CCodecBufferChannel: [c2.android.vorbis.decoder#495] buffers after EOS ignored (0 us)
+07-04 15:28:54.927  1130 18137 D AudioTrack: stop(5555): prior state:STATE_ACTIVE output 13 stream 5 session 28017
+07-04 15:28:54.927  1130 18137 D AudioTrack: stop(5555): called with 4122 frames delivered
+07-04 15:28:54.927  1130 18137 D AudioTrack: stop(5555): 0xea1c3880 stop done
+07-04 15:28:54.927   938  1532 D DispPerfService: get hint proc=Surface(name=2e3c86d InputMethod), idx=1 none
+07-04 15:28:54.929   938   938 I BufferQueueConsumer: [com.example.dogglers/com.example.dogglers.GridListActivity#0](id:3aa00003b0d,api:0,p:-1,c:938) disconnect()
+07-04 15:28:54.929   938   938 I BufferQueue: [com.example.dogglers/com.example.dogglers.GridListActivity#0](this:0xb4000073a6093658,id:15117,api:1,p:-1,c:-1) onDestructor()
+07-04 15:28:54.929   938   938 D OplusExLayer: ~Layer() sequence=63889, name=com.example.dogglers/com.example.dogglers.GridListActivity#0
+07-04 15:28:54.930  1548  2340 I InputDispatcher: Window went away: com.example.dogglers/com.example.dogglers.GridListActivity#0
+07-04 15:28:54.930 18070 18070 I InputTransport: Destroy ARC handle: 0xb400007e8b137a60
+07-04 15:28:54.930 22357 22357 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@24657c1, this = DecorView@6f65b66[InputMethod]
+07-04 15:28:54.931  1186  1320 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[1247.000000,,80.000000,,42.000000,0.000000,447430913068294]
+07-04 15:28:54.931  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:54.932  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:54.934 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8 in: PAUSED
+07-04 15:28:54.935 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8
+07-04 15:28:54.935 13020 16275 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+07-04 15:28:54.935 13020 16275 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+07-04 15:28:54.936 13020 16275 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+07-04 15:28:54.937  1548  4490 I InputDispatcher: setFocusedApplication displayId=0 <invalid>
+07-04 15:28:54.937   904   971 I libPowerHal: Act_Match:0, Common_index:-1
+07-04 15:28:54.937  1548  4490 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+07-04 15:28:54.939   904   971 I libPowerHal: [perfNotifyAppState][PD] ,
+07-04 15:28:54.940   938   938 D OplusExLayer: ~Layer() sequence=63887, name=ActivityRecord{dbcf0f8 u0 com.example.dogglers/.GridListActivity#0
+07-04 15:28:54.940   938   938 D OplusExLayer: ~Layer() sequence=63888, name=7d89ce8 com.example.dogglers/com.example.dogglers.GridListActivity#0
+07-04 15:28:54.940  1548  4490 D InputMethodManagerService: isSecurity: attribute.packageName=com.example.dogglers mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-04 15:28:54.940  1548  4490 D InputMethodManagerService: isSecurity= false (  enable=false needShow=false inBlackList=false isExist=false )
+07-04 15:28:54.941  1548  4490 D InputMethodManagerService: isSecurity: attribute.packageName=com.example.dogglers mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-04 15:28:54.941  1548  4490 D InputMethodManagerService: isSecurity= false (  enable=false needShow=false inBlackList=false isExist=false )
+07-04 15:28:54.941  1548  4490 D InputMethodManagerService: startInputOrWindowGainedFocus:  reset Secure =false
+07-04 15:28:54.942   918  1331 D AudioPolicyService: updateUidStates_l() current->uid=10146 current->pid=4431 allowCapture=1 UidState=5 apmStat=1
+07-04 15:28:54.942 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab in: DESTROYED
+07-04 15:28:54.943 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@5c3dbab
+07-04 15:28:54.945 18070 18143 D libMEOW : applied 0 plugin for [com.example.dogglers].
+07-04 15:28:54.945  1548  1945 I mtkpower_client: perf_lock_rel, hdl:269970, tid:1945
+07-04 15:28:54.945 13020 16217 I FontLog : Pulling font file for id = 7, cache size = 5 [CONTEXT service_id=132 ]
+07-04 15:28:54.945  1548  1945 I mtkpower_client: perf_lock_acq, hdl:269970, dur:0, num:16, tid:1945
+07-04 15:28:54.945   904   971 I libPowerHal: [perfLockRel] hdl:269970, idx:0
+07-04 15:28:54.945   904   971 I libPowerHal: [PD] scn:0 hdl:269970 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.945   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1 -1 -1
+07-04 15:28:54.946   904   971 I libPowerHal: [PD] system_server update cmd:2020000=>1, 1410000=>0, 1c3c000=>1, 2004100=>0,
+07-04 15:28:54.946  1548  1945 I mtkpower_client: ret_hdl:269971
+07-04 15:28:54.946   904   971 E libPowerHal: input parameter exceed reasonable range 2020000 -1 15 0
+07-04 15:28:54.946   904   971 I libPowerHal: [perfLockAcq] idx:0 hdl:269971 hint:-1 pid:1548 duration:0 => ret_hdl:269971
+07-04 15:28:54.946   904   971 I libPowerHal: [PE] scn:0 hdl:269971 lock_user:system_server pid:1548 tid:1945 dur:0
+07-04 15:28:54.946   904   971 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1 2284000 -1
+07-04 15:28:54.947   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>0, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:54.947 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9e81118 in: PRE_ON_CREATE
+07-04 15:28:54.947 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9e81118
+07-04 15:28:54.949 13020 16217 I FontLog : Pulling font file for id = 7, cache size = 5 [CONTEXT service_id=132 ]
+07-04 15:28:54.951   938   938 D OplusExLayer: ~Layer() sequence=63882, name=ActivityRecord{458a2ec u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity#0
+07-04 15:28:54.951  1548  4479 I InputDispatcher: Focus left window: Window{7510d5 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} in display 0
+07-04 15:28:54.951  1548  4479 I InputDispatcher: Window went away: Window{7510d5 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}
+07-04 15:28:54.953 11545 11562 E OpenID  : com.oplus.cosa:DUID:ret:T
+07-04 15:28:54.956 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9e81118 in: CREATED
+07-04 15:28:54.957 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9e81118
+07-04 15:28:54.958 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9e81118 in: STARTED
+07-04 15:28:54.958 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9e81118
+07-04 15:28:54.960 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9e81118 in: RESUMED
+07-04 15:28:54.960 18070 18070 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10305 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9e81118
+07-04 15:28:54.961 18070 18070 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@d5dddd7[]
+07-04 15:28:54.961   938  1532 I SurfaceFlinger: [SF client] NEW(0xb400007374338f00) for (18070:com.example.dogglers)
+07-04 15:28:54.963 18070 18070 D ViewRootImpl[InstrumentationActivityInvoker$EmptyActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+07-04 15:28:54.965   938  1009 D DispPerfService: get hint proc=35ee408 com.example.dogglers, idx=1 none
+07-04 15:28:54.966 18070 18070 I InputTransport: Create ARC handle: 0xb400007e8ce79660
+07-04 15:28:54.966 18070 18070 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@b46e4e2, this = DecorView@d5dddd7[InstrumentationActivityInvoker$EmptyActivity]
+07-04 15:28:54.969   877  8534 D AudioDspStreamManager: openPlaybackTask(), getDspVersion[1] not open aud_playbnack UL!!
+07-04 15:28:54.970   877  8534 D AudioDspStreamManager: addPlaybackHandler() mDspStreamState = 1
+07-04 15:28:54.970   877  8534 D AudioDspStreamManager: dataPasstoA2DPTask return false outputdevice = 0x2 playbckType = 0
+07-04 15:28:54.970   877  8534 D AudioDspStreamManager: needOpenA2dpTask ret = 4 mDspA2DPStreamState = 0 a2dpstartflag = 0
+07-04 15:28:54.970   877  8534 D AudioDspStreamManager: checkMusicTaskStatus ret = DSP_STREAM_START
+07-04 15:28:54.970   877  8534 D AudioDspStreamManager: setDspRuntimeEn(), task_scene = 13, condition = 1
+07-04 15:28:54.970   877  8534 D audio_messenger_ipi: audio_ipi_dma_cbk_register(), task 13, sz 65536/65536, cbk 0xf001eab4, arg 0xe8685700
+07-04 15:28:54.970   877  8534 D aurisys_utility: input dev: 0x0, fmt = 0x4, fs: 48000, max fs: 48000, ch: 2, max ch: 3, ch maks: 0xc, hw_info_mask: 0x0; output dev: 0x2, fmt = 0x4, fs: 48000, max fs: 48000, ch: 2, max ch: 2, ch maks: 0xc, hw_info_mask: 0xc; task_scene: 13, audio_mode: 0, stream_type: 5, output_flags: 0x2, input_source: 0, input_flags: 0x2; network_info: 0, enhancement_feature_mask: 0x0
+07-04 15:28:54.970   877  8534 D AudioALSAHardware: UpdateScenceToDsp(), mInputScence = 0, mOutputScence = 0, attribute_out->sample_rate = 48000
+07-04 15:28:54.970   877  8534 D AudioALSAHardware: UpdateMultiRecordScenceToDsp(), mInputScence = 0, mOutputScence = 0
+07-04 15:28:54.970   877  8534 D AudioALSAHardware: UpdateVoicePlaybackScenceToDsp(), OutputGetScence = 0  , isModeInVoipCall = 0 , isModeInPhoneCall = 0
+07-04 15:28:54.970   877  8534 D oplus_audio_config: oplus_get_config(),unkonw config
+07-04 15:28:54.970   877  8534 D oplus_audio_config: oplus_is_config_support(),param null
+07-04 15:28:54.970   877  8534 D aurisys_utility: lib, working fs: 48000, fmt: 0x3, frame = 0, b_interleave = 1, num_ul_ref_buf_array = 0, num_dl_ref_buf_array = 0
+07-04 15:28:54.970   877  8534 D aurisys_utility: dl in[type:2], ch: 2, ch_mask: 0x3, buf fs: 48000, buf content fs: 48000, fmt: 0x3; dl out[type:3], ch: 2, ch_mask: 0x3, buf fs: 48000, buf content fs: 48000, fmt: 0x3
+07-04 15:28:54.970   877  8534 D aurisys_lib_handler: aurisys_arsi_parsing_param_file(), gProductInfo "platform=MT6893,device=OP515BL1,model=DN2103", file_path "/vendor/etc/audio_param", enhancement_mode 0, param_buf_size 128, data_size 128, custom_info SetAudioCustomScene=
+07-04 15:28:54.970   877  8534 D audio_messenger_ipi: hal send, task: 13, msg_id: 0x15, ack_type: 1, p1: 0x2bc, p2: 0x0, dma sz: 0, idx: 0, hal sz: 700
+07-04 15:28:54.972   877  8534 D AudioDspStreamManager: addPlaybackHandler() mDspMusicStreamState = DSP_STREAM_START
+07-04 15:28:54.972   877  8534 D AudioDspStreamManager: -addPlaybackHandler(), playbackHandler = 3899152128 0xe8685700
+07-04 15:28:54.972   877  8534 D AudioALSAHardwareResourceManager: +startOutputDevice(), new_devices = 0x2, mOutputDevices = 0x0, mStartOutputDevicesCount = 0 SampleRate = 48000
+07-04 15:28:54.972   877  8534 D AudioSmartPaController: +dspOnBoardSpeakerOn(), SampleRate: 48000, MD_type: 0, isI2sInEchoRefEn: 0
+07-04 15:28:54.972   877  8534 E AudioSmartPaController: Error: MUSIC_48000 invalid value, ret = -22
+07-04 15:28:54.972   877  8534 D AudioDspStreamManager: +startDevice() Devices 0x2 mOutputDeviceCount 0x0
+07-04 15:28:54.972   877  8534 D AudioDspStreamManager: dataPassToCodec output_devices = 0x2 mAudioOutputFlags = 2 devicecount = 1 ret = 1
+07-04 15:28:54.972   877  8534 D AudioDspStreamManager: dataPasstoDspAfe output_devices = 0x2 Flags = 2 isUseAdspPlaybackTask = 1 ret = 1
+07-04 15:28:54.972   877  8534 D AudioDspStreamManager: needStartPlaybackTask mDspTaskPlaybackActive = 0 dspstartflag = 1
+07-04 15:28:54.972   877  8534 D AudioDspStreamManager: +startPlaybackTask
+07-04 15:28:54.972   877  8534 D AudioDspStreamManager: startTasks_l() mDspStreamState = DSP_STREAM_START
+07-04 15:28:54.972   877  8534 D AudioDspStreamManager: dataPasstoA2DPTask return false outputdevice = 0x2 playbckType = 0
+07-04 15:28:54.972   877  8534 D AudioDspStreamManager: needStartA2dpTask mDspA2DPStreamState = 0 mDspTaskA2DPActive[0] dspstartflag[0]
+07-04 15:28:54.972   877  8534 D AudioALSAHardwareResourceManager: notifyOutputDeviceStatusChange(), device = 2, status = 0, sampleRate = 48000, mOpenSpeakerPathCount = 1
+07-04 15:28:54.972   877  8534 D AudioALSAStreamManager: speakerStatusChangeCb(), status = 0, sampleRate = 48000
+07-04 15:28:54.972   877  8534 D AudioALSAVoiceWakeUpController: setSpeakerSampleRate(), sampleRate = 48000
+07-04 15:28:54.972   877  8534 D AudioALSAVoiceWakeUpController: updateSpeakerPlaybackStatus(), isSpeakerPlaying = 1
+07-04 15:28:54.972   877  8534 D AudioALSAStreamOut: openWavDump(), mDumpFile is NULL
+07-04 15:28:54.972   877  8534 D AudioALSAPlaybackHandlerDsp: setScreenState, flag 2, 0.000000, mode = 1 , buffer_size = 8192, channel 2, format4 reduceInterruptSize = 1024
+07-04 15:28:54.973   877  8534 E AudioALSAPlaybackHandlerBase: -getHardwareBufferInfo(), pcm_get_htimestamp fail, ret = -1, pcm_get_error =  flag = 0x2
+07-04 15:28:54.973   918  1502 D AudioFlinger_Threads: 0xb400007eadb12080:threadLoop_write write data to hw, mixerStatus 2, muted count 141
+07-04 15:28:54.973   918  1502 D OplusAudioDetectionManager: checkTrackBuffer1() track 0xb400007e9d094800 get INFO from NEW, channelCount 1, pid 2144
+07-04 15:28:54.973   918  1502 D OplusAudioDetectionImpl: initFromProperty()  0xb400007eab27dc00, sLogdumpEnable 0, sPcmdumpEnable 0, sAdSwitch 0, checkpop 0, checkzd 0
+07-04 15:28:54.979   938  1009 D DispPerfService: get hint proc=com.example.dogglers, idx=1 none
+07-04 15:28:54.979   938  1009 I BufferQueueConsumer: [](id:3aa00003b0f,api:0,p:-1,c:938) connect(): controlledByApp=false
+07-04 15:28:54.979   938  1009 I BufferQueue: [unnamed-938-15119](this:0xb400007427501058,id:15119,api:0,p:-1,c:-1) BufferQueue core=(938:/system/bin/surfaceflinger)
+07-04 15:28:54.980   938  1009 D DispPerfService: get hint proc=Surface(name=44bf6fc StatusBar), idx=1 none
+07-04 15:28:54.981   938  1009 D DispPerfService: get hint proc=Surface(name=1a0f092 NavigationBar0), idx=1 none
+07-04 15:28:54.981  1548  2340 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+07-04 15:28:54.984   938  1532 I BufferQueueProducer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1](id:3aa00003b0f,api:1,p:18070,c:938) connect(): api=1 producerControlledByApp=false
+07-04 15:28:54.990   938  1009 D DispPerfService: onframeavailable pid=18070, slot=2, seq=63902, name=com.example.dogglers:com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1
+07-04 15:28:54.993  1548  1583 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +75ms
+07-04 15:28:54.996  1548  2719 I InputDispatcher: Focus entered window: Window{35ee408 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} in display 0
+07-04 15:28:54.996  1548  2719 I InputDispatcher: Window went away: com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1
+07-04 15:28:55.005   938   938 D OplusExLayer: ~Layer() sequence=63897, name=Surface(name=44bf6fc StatusBar)/@0x6e28e63 - animation-leash#1
+07-04 15:28:55.005   938   938 D OplusExLayer: ~Layer() sequence=63898, name=Surface(name=1a0f092 NavigationBar0)/@0x96afa60 - animation-leash#1
+07-04 15:28:55.008   938  1009 I BufferQueueProducer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0](id:3aa00003b0e,api:1,p:18070,c:938) disconnect(): api=1
+07-04 15:28:55.009 11170 18146 I System.out: [socket]:check permission begin!
+07-04 15:28:55.014   918  1502 D AudioFlinger_Threads: mixer(0xb400007eadb12080) throttle end: throttle time(11)
+07-04 15:28:55.014   904   971 I libPowerHal: [PE] system_server update cmd:2020000=>0, 1410000=>2, 1c3c000=>0, 2004100=>0,
+07-04 15:28:55.023   918  1331 D AudioPolicyService: updateUidStates_l() current->uid=10146 current->pid=4431 allowCapture=1 UidState=5 apmStat=1
+07-04 15:28:55.028 14051 14051 D RecyclerViewWrapper: onWindowVisibilityChanged:8
+07-04 15:28:55.028   904   971 I UxUtility: notifyForegroundApp pack:net.oneplus.launcher, uid:10119
+07-04 15:28:55.028   904   971 I TouchUtility: notifyAppState error = NULL
+07-04 15:28:55.028   904   924 I mtkpower@impl: [notifyAppState] pc:0, com.example.dogglers => net.oneplus.launcher
+07-04 15:28:55.037 18070 18070 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 2
+07-04 15:28:55.037 18070 18096 I MonitoringInstr: Unstopped activity count: 2
+07-04 15:28:55.039 14051 14051 D Launcher: onStart# hashcode: 36593752
+07-04 15:28:55.047 14051 14051 D BottomSwipeTouchRegionController: update: activity = net.oneplus.launcher.Launcher@22e6058, active = true, finalValue = false, reallyUpdate = true
+07-04 15:28:55.048 14051 14051 D QuickPage: updateOnResume, count:5
+07-04 15:28:55.048 14051 14051 D QuickPage: updateOnResume, holder[0] = null
+07-04 15:28:55.048 14051 14051 D QuickPage: updateOnResume, holder[1] = null
+07-04 15:28:55.048 14051 14051 D QuickPage: updateOnResume, holder[2] = null
+07-04 15:28:55.052   938  1009 D DispPerfService: get hint proc=net.oneplus.launcher, idx=1 none
+07-04 15:28:55.052   938  1009 I BufferQueueConsumer: [](id:3aa00003b11,api:0,p:-1,c:938) connect(): controlledByApp=false
+07-04 15:28:55.052   938  1009 I BufferQueue: [unnamed-938-15121](this:0xb400007374241458,id:15121,api:0,p:-1,c:-1) BufferQueue core=(938:/system/bin/surfaceflinger)
+07-04 15:28:55.054   938  1532 D DispPerfService: get hint proc=Surface(name=44bf6fc StatusBar), idx=1 none
+07-04 15:28:55.054   938  1532 D DispPerfService: get hint proc=Surface(name=1a0f092 NavigationBar0), idx=1 none
+07-04 15:28:55.055  1548  3267 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+07-04 15:28:55.057   938  1009 I BufferQueueProducer: [net.oneplus.launcher/net.oneplus.launcher.Launcher#1](id:3aa00003b11,api:1,p:14051,c:938) connect(): api=1 producerControlledByApp=false
+07-04 15:28:55.059 14051 14125 E Parcel  : Reading a NULL string not supported here.
+07-04 15:28:55.063  4431  4431 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+07-04 15:28:55.066   938  1009 D DispPerfService: onframeavailable pid=14051, slot=0, seq=63906, name=net.oneplus.launcher:net.oneplus.launcher/net.oneplus.launcher.Launcher#1
+07-04 15:28:55.066 14051 14051 D RecyclerViewWrapper: onWindowVisibilityChanged:8
+07-04 15:28:55.067  4431  5741 I GsaVoiceInteractionSrv: (REDACTED) disregardVoiceMatch: %b
+07-04 15:28:55.069 14051 14125 E Parcel  : Reading a NULL string not supported here.
+07-04 15:28:55.070   904   925 I mtkpower@impl: [setMode] type:5, enabled:0
+07-04 15:28:55.071 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8 in: STOPPED
+07-04 15:28:55.071   938   938 D OplusExLayer: ~Layer() sequence=63903, name=Surface(name=44bf6fc StatusBar)/@0x6e28e63 - animation-leash#0
+07-04 15:28:55.071   938   938 D OplusExLayer: ~Layer() sequence=63904, name=Surface(name=1a0f092 NavigationBar0)/@0x96afa60 - animation-leash#0
+07-04 15:28:55.072 10148 10171 E Parcel  : Reading a NULL string not supported here.
+07-04 15:28:55.072 18070 18070 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@28a7083, this = DecorView@ee7094[InstrumentationActivityInvoker$EmptyActivity]
+07-04 15:28:55.073  2296  2296 D OplusWallpaperServiceHelper: isNightMode is false
+07-04 15:28:55.073  2296  2296 I OplusWallpaperServiceHelper: getDarkModeWallpaperWindowAlpha. nightMode = false
+07-04 15:28:55.074   938  1009 D DispPerfService: get hint proc=Surface(name=Task=4037), idx=1 none
+07-04 15:28:55.075   938  1009 D DispPerfService: get hint proc=Surface(name=Task=4594), idx=1 none
+07-04 15:28:55.075 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@aad5de8 in: DESTROYED
+07-04 15:28:55.075   938  1009 D DispPerfService: get hint proc=Surface(name=WallpaperWindowToken{bf163bf token=android.os.Binder@4b55de}), idx=1 none
+07-04 15:28:55.075 18070 18070 D View    : [Warning] assignParent to null: this = DecorView@ee7094[InstrumentationActivityInvoker$EmptyActivity]
+07-04 15:28:55.076 14051 14125 D InstallShortcutReceiver: MSG_FLUSH_QUEUE string = null
+07-04 15:28:55.076 14051 14051 D BubbleTextView: applyDotState cn = ComponentInfo{com.wsandroid.suite/com.android.mcafee.ui.framework.BaseActivity}, animated = true, wasDoted = true, isDoted = true, dotScale = 1.0, mDotInfo = net.oneplus.launcher.dot.DotInfo@e9cb4a7
+07-04 15:28:55.076 14051 14125 I WeatherProvider: subscribe new weather callback:
+07-04 15:28:55.077 14051 14125 D WeatherProvider: getOfflineWeatherInformation() called
+07-04 15:28:55.077 14051 14125 D WeatherProvider: Should query weather info again as it may has been updated...
+07-04 15:28:55.077 14051 14125 D WeatherProvider: shouldReQueryWeatherInfo - shouldReQuery - true
+07-04 15:28:55.077  3743  3750 E oiface  : Average freq 2382937 for 0s.
+07-04 15:28:55.077  3743  3750 E oiface  : Average freq 1968750 for 0s.
+07-04 15:28:55.077  3743  3750 E oiface  : Average freq 2720984 for 0s.
+07-04 15:28:55.078  3743  3750 E oiface  : get gpu freq table failed
+07-04 15:28:55.078  3743  3750 E oiface  : client  not found, skipped
+07-04 15:28:55.078  3743  3750 D oiface  : forground package is net.oneplus.launcher
+07-04 15:28:55.078 14051 14125 I Launcher.Utilities: isNetworkConnected = true
+07-04 15:28:55.078 14051 14125 D WeatherProvider: getOfflineWeatherInformation() called to get data from cursor
+07-04 15:28:55.078 14051 14125 D WeatherProvider: getWeatherUpdate() called with: isFromTestWeatherObserver = [false]
+07-04 15:28:55.080 14051 14125 I Launcher.Utilities: isNetworkConnected = true
+07-04 15:28:55.082 14051 18156 D WeatherProvider: getWeatherUpdate().execute(() called
+07-04 15:28:55.082 14051 18156 D WeatherProvider: queryWeatherInformation() called
+07-04 15:28:55.085   938   938 D DispPerfService: get hint proc=, idx=1 none
+07-04 15:28:55.088 18070 18096 I MonitoringInstr: Unstopped activity count: 1
+07-04 15:28:55.089   938   938 D OplusExLayer: ~Layer() sequence=63912, name=Screenshot Parent
+07-04 15:28:55.091  1186  1320 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[1166.000000,,140.000000,,43.000000,0.000000,447431073054367]
+07-04 15:28:55.091  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:55.092  1184  1184 E DisplayPanelInterface: GetDisplayPanelOBrightness [oplus_brightness]= [834]
+07-04 15:28:55.093 14051 29500 D LauncherAnimationRunner: onAnimationStart#
+07-04 15:28:55.094  1548  2340 I InputDispatcher: Focus entered window: Window{30be694 u0 net.oneplus.launcher/net.oneplus.launcher.Launcher} in display 0
+07-04 15:28:55.095  2296  2296 D LiveWallpaper.Engine: onVisibilityChanged# false -> true
+07-04 15:28:55.095  2296  2296 D Surface : lockHardwareCanvas
+07-04 15:28:55.097 14051 14051 D StateManager: setAnimation# targetState: null, anim: 173405251
+07-04 15:28:55.097 14051 14051 D QuickstepTransition: createLauncherResumeAnimation set DragLayer alpha 0 and run animation to 1
+07-04 15:28:55.097 14051 14051 D QuickstepTransition: [OSP-1899] createLauncherResumeAnimation: +
+07-04 15:28:55.097 14051 14051 D BaseActivity: clearForceInvisibleFlag add flag = 31, currentFlag = 0
+07-04 15:28:55.097 14051 14051 D BaseActivity: Showing call stack:
+07-04 15:28:55.097 14051 14051 D BaseActivity:     [BaseActivity] QuickstepAppTransitionManagerImpl.java, onCreateAnimation, line: 921
+07-04 15:28:55.097 14051 14051 D QuickstepTransition: resetContentView set DragLayer alpha 1
+07-04 15:28:55.097 14051 14051 D QuickstepTransition: [OSP-1899] createLauncherResumeAnimation: -
+07-04 15:28:55.097 18070 18070 I InputTransport: Destroy ARC handle: 0xb400007e7e61dd20
+07-04 15:28:55.099  3743  3750 E oiface  : get gpu freq table failed
+07-04 15:28:55.101 14051 29500 D LauncherAnimationRunner: onAnimationCancelled#
+07-04 15:28:55.105   938   938 D OplusExLayer: ~Layer() sequence=63894, name=ActivityRecord{bbf5bcf u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+07-04 15:28:55.105   938   938 D OplusExLayer: ~Layer() sequence=63895, name=7510d5 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+07-04 15:28:55.105   938   938 I BufferQueueConsumer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0](id:3aa00003b0e,api:0,p:-1,c:938) disconnect()
+07-04 15:28:55.105   938   938 I BufferQueue: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0](this:0xb400007427500258,id:15118,api:1,p:-1,c:-1) onDestructor()
+07-04 15:28:55.105   938   938 D OplusExLayer: ~Layer() sequence=63896, name=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+07-04 15:28:55.106 14051 14051 D StateManager: onAnimationEnd# set currentAnim to empty.
+07-04 15:28:55.106 14051 14051 D Launcher: onWindowFocusChanged# hasFocus: true
+07-04 15:28:55.106  1548  2719 I InputDispatcher: Window went away: com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+07-04 15:28:55.106 14051 14051 D resumeflow: false
+07-04 15:28:55.106 14051 14051 D DeviceHelper: isIndiaSkuSupports: this= 165c135f0de603b74ab9dceb1ab3a540 , is SKU: true
+07-04 15:28:55.109   938  1728 I BufferQueueProducer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1](id:3aa00003b0f,api:1,p:18070,c:938) disconnect(): api=1
+07-04 15:28:55.110 14051 14051 I SkuHelper: has regional features: false
+07-04 15:28:55.110  1548  2719 D InputMethodManagerService: isSecurity: attribute.packageName=net.oneplus.launcher mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-04 15:28:55.110  1548  2719 D InputMethodManagerService: isSecurity= false (  enable=false needShow=false inBlackList=false isExist=false )
+07-04 15:28:55.114  1548  2719 D VerificationCodeController: notifyImeAttributeChanged: 64false
+07-04 15:28:55.116   938   938 E Layer   : [Surface(name=Task=4037)/@0xe5b93b9 - animation-leash#0] No local sync point found
+07-04 15:28:55.116   938   938 E Layer   : [Surface(name=Task=4037)/@0xe5b93b9 - animation-leash#0] No local sync point found
+07-04 15:28:55.116   938   938 E Layer   : [Surface(name=Task=4594)/@0xadb03f8 - animation-leash#0] No local sync point found
+07-04 15:28:55.116   938   938 E Layer   : [Surface(name=Task=4594)/@0xadb03f8 - animation-leash#0] No local sync point found
+07-04 15:28:55.116   918  1331 D AudioPolicyService: updateUidStates_l() current->uid=10146 current->pid=4431 allowCapture=1 UidState=3 apmStat=1
+07-04 15:28:55.116   918  1331 I chatty  : uid=1041(audioserver) Binder:918_B identical 1 line
+07-04 15:28:55.116   918  1331 D AudioPolicyService: updateUidStates_l() current->uid=10146 current->pid=4431 allowCapture=1 UidState=3 apmStat=1
+07-04 15:28:55.119  1130 18137 D AudioTrack: pause(5555): prior state:STATE_STOPPED output 13 stream 5 session 28017
+07-04 15:28:55.119  1548  3263 I MediaFocusControl: abandonAudioFocus() from uid/pid 10120/2144 clientId=android.media.AudioManager@b4239e0
+07-04 15:28:55.119   938  2840 D DispPerfService: get hint proc=Surface(name=2e3c86d InputMethod), idx=1 none
+07-04 15:28:55.120 13887 13910 E OPWeather@WeatherDataSharedProvider: query() -> no located city, fallback to use first city in database
+07-04 15:28:55.121 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9e81118 in: STOPPED
+07-04 15:28:55.121   918  1502 E AudioFlinger: updateAudioDetectState pid : 2144, get null buffer
+07-04 15:28:55.121   918  1502 D MtkAudioResamplerDyn: MtkAudioResamplerDyn InBuffer::reset!!
+07-04 15:28:55.121  2144 18099 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+07-04 15:28:55.121  2144 18099 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+07-04 15:28:55.121  2144 18099 D MediaPlayer: _release native called
+07-04 15:28:55.121  1130  1130 D NuPlayerDriver: reset(0xef8d0640) at state 6
+07-04 15:28:55.122 22357 22357 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+07-04 15:28:55.122  1130 18103 D OplusNuPlayer: initializeOplusMedia [125]:
+07-04 15:28:55.122  1130 18137 D AudioTrack: pause(5555): prior state:STATE_STOPPED output 13 stream 5 session 28017
+07-04 15:28:55.122  1130 18137 D AudioTrack: flush(5555): prior state:STATE_STOPPED
+07-04 15:28:55.122  1130 18137 D AudioTrack: stop(5555): prior state:STATE_FLUSHED output 13 stream 5 session 28017
+07-04 15:28:55.123 18070 18070 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@b46e4e2, this = DecorView@d5dddd7[InstrumentationActivityInvoker$EmptyActivity]
+07-04 15:28:55.123 22357 22357 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = false, unlocked = true
+07-04 15:28:55.123 22357 22357 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1923 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=net.oneplus.launcher fieldId=-1 fieldName=null extras=null}, false)
+07-04 15:28:55.123 22357 22357 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2116 checkRepeatedly = true, unlocked = true
+07-04 15:28:55.123  1130 18139 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+07-04 15:28:55.124  1219 15968 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+07-04 15:28:55.124 13887 13910 W OPWeather@WeatherDataSharedProvider: query() -> no city added in database
+07-04 15:28:55.124  1219 15968 V C2Store : in ~ComponentModule
+07-04 15:28:55.124  1219 15968 V C2Store : unloading dll
+07-04 15:28:55.125  1130 18103 D NuPlayerDriver: notifyResetComplete(0xef8d0640)
+07-04 15:28:55.125  1130  1130 D IAtlas  : IAtlas::init CallingPid 2144
+07-04 15:28:55.126 18070 18070 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9e81118 in: DESTROYED
+07-04 15:28:55.127 14051 18156 D WeatherProvider: queryWeatherInformation() called after cursor
+07-04 15:28:55.127 14051 18156 D WeatherProvider: processWeatherInformation() called with: cursor = [android.content.ContentResolver$CursorWrapperInner@85076b5]
+07-04 15:28:55.127 14051 18156 E WeatherProvider: processWeatherInformation - cannot move the cursor point to the first row, is the cursor empty?
+07-04 15:28:55.127  1130  1130 D IAtlas  : IAtlas::init this 0xec4a9040
+07-04 15:28:55.127 18070 18070 D View    : [Warning] assignParent to null: this = DecorView@d5dddd7[InstrumentationActivityInvoker$EmptyActivity]
+07-04 15:28:55.129  1130  1130 W AMessage: failed to post message as target looper for handler 0 is gone.
+07-04 15:28:55.130 22357 22357 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@24657c1, this = DecorView@6f65b66[InputMethod]
+07-04 15:28:55.130  1130  1130 D AudioTrack: ~AudioTrack(5555): 0xea1c3880
+07-04 15:28:55.130  1130  1130 D AudioTrack: ~AudioTrack, releasing mStatus =0 session id 28017 from 1130 on behalf of 2144
+07-04 15:28:55.131  1130  1130 D AudioTrack: stop(5555): prior state:STATE_FLUSHED output 13 stream 5 session 28017
+07-04 15:28:55.131 18070 18070 I InputTransport: Destroy ARC handle: 0xb400007e8ce79660
+07-04 15:28:55.132  2144 18099 D MediaPlayer: _release native finished
+07-04 15:28:55.135 14051 29022 D RecentTasksList: loadTasksInBackground: getRecentTasks
+07-04 15:28:55.135 14051 14051 D RecentsView: onTaskRemoved taskId = 4594
+07-04 15:28:55.136 14051 14051 D RecentsView: onTaskRemoved taskId = 4594
+07-04 15:28:55.138 14051 29022 W OpActivityManagerWrapper: Failed to get the field RecentTaskInfo.isTopAppLocked.
+07-04 15:28:55.138   938   938 D OplusExLayer: ~Layer() sequence=63881, name=Task=4594#0
+07-04 15:28:55.138   938   938 D OplusExLayer: ~Layer() sequence=63899, name=ActivityRecord{acac466 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+07-04 15:28:55.138   938   938 D OplusExLayer: ~Layer() sequence=63901, name=35ee408 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+07-04 15:28:55.138   938   938 I BufferQueueConsumer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1](id:3aa00003b0f,api:0,p:-1,c:938) disconnect()
+07-04 15:28:55.138   938   938 I BufferQueue: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1](this:0xb400007427501058,id:15119,api:1,p:-1,c:-1) onDestructor()
+07-04 15:28:55.138   938   938 D OplusExLayer: ~Layer() sequence=63902, name=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1
